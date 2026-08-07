@@ -1,0 +1,1856 @@
+{
+  "year": "2026–27",
+  "label": "CFISD 2026–2027 High School Course Description Handbook",
+  "stats": [
+    {
+      "num": "26",
+      "label": "Credits to Graduate",
+      "sub": "Foundation + Endorsement",
+      "color": "#E8500A"
+    },
+    {
+      "num": "5",
+      "label": "Endorsement Paths",
+      "sub": "Choose what fits you",
+      "color": "#0A2240"
+    },
+    {
+      "num": "7",
+      "label": "Classes Per Day",
+      "sub": "Semester system",
+      "color": "#1A6B9A"
+    },
+    {
+      "num": "30+",
+      "label": "CTE Programs",
+      "sub": "Career pathways available",
+      "color": "#2E7D32"
+    }
+  ],
+  "reminders": [
+    {
+      "icon": "🔑",
+      "text": "Algebra II is NOT required to graduate, but IS required for Distinguished Level of Achievement and automatic college admission eligibility."
+    },
+    {
+      "icon": "📝",
+      "text": "FAFSA or TAFSA must be completed before receiving a diploma (parents can opt out in writing; students 18+ can opt themselves out)."
+    },
+    {
+      "icon": "⏰",
+      "text": "Course change requests must be submitted by the last day of April. No changes after the 2nd week of each semester."
+    },
+    {
+      "icon": "📊",
+      "text": "NEW for Class of 2030+: A 5-column GPA scale adds an 'Advanced' (K-level) tier — AP/Dual Credit A=7, K-level A=6.5, On-Level A=6."
+    },
+    {
+      "icon": "🏫",
+      "text": "To enter K-level (Academic Advanced) or AP for the first time, you need an 85+ yearly average in the previous on-level class OR Masters on STAAR/EOC, plus parent permission."
+    },
+    {
+      "icon": "💻",
+      "text": "NEW in 2026–27: CFISD Virtual Pathways launches — Virtual Academy (fully online), Flex Learning (hybrid for 11th–12th), and Supplemental Courses (tuition-based, outside school day)."
+    },
+    {
+      "icon": "📚",
+      "text": "Class of 2030+ Social Studies change: Personal Financial Literacy (½ credit) replaces Economics (½ credit); Economics becomes an option for the first SS requirement."
+    },
+    {
+      "icon": "🎓",
+      "text": "Honor designations: Summa cum laude = 6.5 GPA | Magna cum laude = 6.25 GPA | Cum laude = 6.0 GPA."
+    }
+  ],
+  "graduationReqs": [
+    {
+      "subject": "English",
+      "credits": 4,
+      "note": "English I–IV, taken in sequence"
+    },
+    {
+      "subject": "PACE / PACE Plus",
+      "credits": 0.5,
+      "note": "Required in Grade 9. CPR embedded in PACE. PACE Plus (1 credit) for students who did not pass all 8th-grade core classes or didn't meet STAAR standards."
+    },
+    {
+      "subject": "Mathematics",
+      "credits": 3,
+      "note": "Algebra I, Geometry + 1 additional; +1 advanced math for endorsement. Algebra II required for Distinguished Level of Achievement."
+    },
+    {
+      "subject": "Science",
+      "credits": 3,
+      "note": "Biology + IPC, Chemistry, or Physics + 1 additional; +1 advanced science for endorsement."
+    },
+    {
+      "subject": "Social Studies",
+      "credits": 3,
+      "note": "Classes 2018–2029: World Geo or World History, U.S. History, Gov't (½), Economics (½). Class of 2030+: World Geo/History/Economics, U.S. History, Gov't (½), Personal Financial Literacy (½)."
+    },
+    {
+      "subject": "Languages Other Than English",
+      "credits": 2,
+      "note": "Two credits in the same language. Computer Science I K or CS II K also satisfies LOTE."
+    },
+    {
+      "subject": "Physical Education",
+      "credits": 1,
+      "note": "Max 2 PE credits toward graduation. Alternatives: marching band, cheerleading (fall), drill team, athletics, AFJROTC, district-approved off-campus training."
+    },
+    {
+      "subject": "Fine Arts",
+      "credits": 1,
+      "note": "Art, music, dance, theatre, or floral design. Must take 2 sequential semesters of the same course."
+    },
+    {
+      "subject": "Health",
+      "credits": 0.5,
+      "note": "Required through Class of 2028. Any grade, or via correspondence/summer/CBE. Principles of Health Science satisfies this. CPR embedded in Health."
+    },
+    {
+      "subject": "Electives",
+      "credits": 4.5,
+      "note": "+2 additional elective credits for endorsement completion."
+    }
+  ],
+  "gpaScales": [
+    {
+      "label": "Classes of 2018–2029 (Weighted 6.0 Scale)",
+      "columns": [
+        "K / AP / HORIZONS",
+        "L-Level (On-Level)",
+        "Below Level / Resource",
+        "LIFE Skills"
+      ],
+      "rows": [
+        {
+          "grade": "A (90–100)",
+          "pts": [
+            7,
+            6,
+            5,
+            4
+          ]
+        },
+        {
+          "grade": "B (80–89)",
+          "pts": [
+            6,
+            5,
+            4,
+            3
+          ]
+        },
+        {
+          "grade": "C (75–79)",
+          "pts": [
+            5,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "grade": "C– (70–74)",
+          "pts": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "grade": "F (below 70)",
+          "pts": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "fail": true
+        }
+      ]
+    },
+    {
+      "label": "Classes of 2030 and Beyond (New 5-Column Scale)",
+      "columns": [
+        "AP / Dual Credit",
+        "Advanced (K-level)",
+        "L-Level (On-Level)",
+        "Below Level / Resource",
+        "LIFE Skills"
+      ],
+      "rows": [
+        {
+          "grade": "A (90–100)",
+          "pts": [
+            7,
+            6.5,
+            6,
+            5,
+            4
+          ]
+        },
+        {
+          "grade": "B (80–89)",
+          "pts": [
+            6,
+            5.5,
+            5,
+            4,
+            3
+          ]
+        },
+        {
+          "grade": "C (75–79)",
+          "pts": [
+            5,
+            4.5,
+            4,
+            3,
+            2
+          ]
+        },
+        {
+          "grade": "C– (70–74)",
+          "pts": [
+            4,
+            3.5,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "grade": "F (below 70)",
+          "pts": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "fail": true
+        }
+      ]
+    }
+  ],
+  "endorsements": [
+    {
+      "id": "stem",
+      "name": "STEM",
+      "subtitle": "Science · Technology · Engineering · Math",
+      "color": "#1A6B9A",
+      "lightColor": "#E8F4FD",
+      "emoji": "🔬",
+      "bestFor": "Students who love coding, engineering, advanced math, research, or lab science.",
+      "requiredCore": [
+        "Algebra II",
+        "Chemistry",
+        "Physics"
+      ],
+      "routes": [
+        {
+          "name": "Option 1: Computer Science",
+          "desc": "4 CS courses: CS I K or Advanced, AP Computer Science Principles, CS II K or Advanced, CS III K or Advanced, CS IV K or Advanced"
+        },
+        {
+          "name": "Option 2: CTE Engineering",
+          "desc": "4 CTE credits, at least 2 courses in same STEM cluster, with at least 1 advanced CTE course (3rd year or higher)"
+        },
+        {
+          "name": "Option 3: Math",
+          "desc": "Algebra I + Geometry + Algebra II + 2 courses for which Algebra II is a prerequisite: Pre-Calculus, Calculus AB/BC, AP Statistics, AQR K/Advanced, Advanced Algebra, or College Algebra K/Advanced"
+        },
+        {
+          "name": "Option 4: Science",
+          "desc": "Biology + Chemistry + Physics + 2 of: AP Chemistry, AP Biology, Anatomy & Physiology, AP Environmental Science, AP Physics I/II/C, Aquatic Science, Astronomy, Earth & Space Science, Environmental Systems, Forensic Science, Engineering Design & Problem Solving, Advanced Animal/Plant Science, Pathophysiology"
+        },
+        {
+          "name": "Option 5: Combination",
+          "desc": "Algebra II + Chemistry + Physics + 1 additional math + 1 additional science + 3 credits from Option 1 (CS) and/or Option 2 (CTE). At least 1 CTE course must be advanced if CTE is included."
+        }
+      ],
+      "careers": [
+        "Software Engineer",
+        "Biomedical Researcher",
+        "Data Scientist",
+        "Mechanical Engineer"
+      ],
+      "interestTags": [
+        "coding",
+        "engineering",
+        "math",
+        "science",
+        "research",
+        "robotics"
+      ]
+    },
+    {
+      "id": "business",
+      "name": "Business & Industry",
+      "subtitle": "Business · Media · Tech · Trades",
+      "color": "#2E7D32",
+      "lightColor": "#E8F5E9",
+      "emoji": "💼",
+      "bestFor": "Students interested in entrepreneurship, media production, IT, architecture, or skilled trades.",
+      "requiredCore": [],
+      "routes": [
+        {
+          "name": "Option 1: CTE Sequence",
+          "desc": "4 credits in an approved cluster (Ag, Architecture, Arts/A-V, Business, Hospitality, IT, Manufacturing, Transportation) with at least 1 advanced course"
+        },
+        {
+          "name": "Option 2: Journalism/Debate",
+          "desc": "4 English elective credits including 3 levels in Advanced Journalism (Newspaper or Yearbook) or Debate"
+        },
+        {
+          "name": "Option 3: Combination",
+          "desc": "Coherent 4-credit sequence from Options 1 and 2 with at least 1 advanced CTE course"
+        }
+      ],
+      "careers": [
+        "Entrepreneur",
+        "Digital Marketing Manager",
+        "Network Admin",
+        "Architect"
+      ],
+      "interestTags": [
+        "business",
+        "marketing",
+        "media",
+        "architecture",
+        "it",
+        "culinary",
+        "automotive",
+        "fashion"
+      ]
+    },
+    {
+      "id": "public-services",
+      "name": "Public Services",
+      "subtitle": "Healthcare · Education · Service",
+      "color": "#6A1B9A",
+      "lightColor": "#F3E5F5",
+      "emoji": "🏥",
+      "bestFor": "Students interested in healthcare, teaching, counseling, social work, or military leadership.",
+      "requiredCore": [],
+      "routes": [
+        {
+          "name": "Option 1: CTE (Health Science, Education, Human Services)",
+          "desc": "4 credits in Education & Training, Health Science, or Human Services cluster, with at least 1 advanced course (3rd year or higher)"
+        },
+        {
+          "name": "Option 2: AFJROTC",
+          "desc": "4 AFJROTC courses for 4 credits"
+        }
+      ],
+      "careers": [
+        "Registered Nurse",
+        "Elementary Teacher",
+        "Physical Therapist",
+        "Social Worker"
+      ],
+      "interestTags": [
+        "healthcare",
+        "teaching",
+        "service",
+        "leadership",
+        "people",
+        "military"
+      ]
+    },
+    {
+      "id": "arts-humanities",
+      "name": "Arts & Humanities",
+      "subtitle": "Art · Music · Theatre · Languages · Culture",
+      "color": "#C62828",
+      "lightColor": "#FFEBEE",
+      "emoji": "🎨",
+      "bestFor": "Students who love creative expression, world cultures, languages, history, and storytelling.",
+      "requiredCore": [],
+      "routes": [
+        {
+          "name": "Option 1: Social Studies",
+          "desc": "5 social studies credits"
+        },
+        {
+          "name": "Option 2: Languages",
+          "desc": "4 levels of the same foreign language, OR 2 levels each in 2 different foreign languages (4 credits total)"
+        },
+        {
+          "name": "Option 3: Fine Arts",
+          "desc": "4 courses in the same fine arts area for 4 credits, OR 2 courses in one fine arts area + 2 courses in a different fine arts area"
+        }
+      ],
+      "careers": [
+        "Graphic Designer",
+        "Journalist",
+        "Museum Curator",
+        "Foreign Service Officer"
+      ],
+      "interestTags": [
+        "art",
+        "music",
+        "theatre",
+        "history",
+        "languages",
+        "culture",
+        "writing"
+      ]
+    },
+    {
+      "id": "multidisciplinary",
+      "name": "Multidisciplinary Studies",
+      "subtitle": "Broad College-Prep Path",
+      "color": "#C94208",
+      "lightColor": "#FFF4EE",
+      "emoji": "📚",
+      "bestFor": "Students who want a well-rounded, rigorous college-prep program without specializing in one area.",
+      "requiredCore": [],
+      "routes": [
+        {
+          "name": "Option 1: Four by Four (4×4)",
+          "desc": "4 English credits (including English IV) + 4 Math credits + 4 Science credits (Biology + Chemistry and/or Physics) + 4 Social Studies credits"
+        },
+        {
+          "name": "Option 2: AP / Dual Credit",
+          "desc": "4 Advanced Placement (AP) or 4 Dual Credit courses, or a combination totaling 4 credits in English, math, science, social studies, foreign language, or fine arts"
+        }
+      ],
+      "careers": [
+        "Any field — keeps all doors open",
+        "Pre-Med",
+        "Pre-Law",
+        "Liberal Arts"
+      ],
+      "interestTags": [
+        "college",
+        "balanced",
+        "ap",
+        "dual credit",
+        "generalist",
+        "undecided"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "id": "coding",
+      "label": "Coding & Software",
+      "icon": "💻",
+      "tags": [
+        "stem"
+      ]
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering & Robotics",
+      "icon": "⚙️",
+      "tags": [
+        "stem"
+      ]
+    },
+    {
+      "id": "math",
+      "label": "Math & Analytics",
+      "icon": "📐",
+      "tags": [
+        "stem"
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Science & Research",
+      "icon": "🔬",
+      "tags": [
+        "stem"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare & Medicine",
+      "icon": "🏥",
+      "tags": [
+        "public-services"
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Business & Finance",
+      "icon": "💼",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing & Sales",
+      "icon": "📊",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Media & Film Production",
+      "icon": "🎬",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "art",
+      "label": "Art & Design",
+      "icon": "🎨",
+      "tags": [
+        "arts-humanities"
+      ]
+    },
+    {
+      "id": "music",
+      "label": "Music & Performance",
+      "icon": "🎵",
+      "tags": [
+        "arts-humanities"
+      ]
+    },
+    {
+      "id": "theatre",
+      "label": "Theatre & Drama",
+      "icon": "🎭",
+      "tags": [
+        "arts-humanities"
+      ]
+    },
+    {
+      "id": "history",
+      "label": "History & Social Studies",
+      "icon": "🌍",
+      "tags": [
+        "arts-humanities",
+        "multidisciplinary"
+      ]
+    },
+    {
+      "id": "languages",
+      "label": "Languages & Culture",
+      "icon": "🗣️",
+      "tags": [
+        "arts-humanities"
+      ]
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching & Education",
+      "icon": "📖",
+      "tags": [
+        "public-services"
+      ]
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership & Service",
+      "icon": "🤝",
+      "tags": [
+        "public-services"
+      ]
+    },
+    {
+      "id": "college",
+      "label": "Broad College Prep",
+      "icon": "🎓",
+      "tags": [
+        "multidisciplinary"
+      ]
+    },
+    {
+      "id": "architecture",
+      "label": "Architecture & Construction",
+      "icon": "🏗️",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "culinary",
+      "label": "Culinary Arts",
+      "icon": "👨‍🍳",
+      "tags": [
+        "business"
+      ]
+    },
+    {
+      "id": "robotics",
+      "label": "Robotics & AI",
+      "icon": "🤖",
+      "tags": [
+        "stem"
+      ]
+    },
+    {
+      "id": "automotive",
+      "label": "Automotive Technology",
+      "icon": "🚗",
+      "tags": [
+        "business"
+      ]
+    }
+  ],
+  "suggestedQuestions": [
+    "How many credits do I need to graduate?",
+    "What is CFISD Virtual Pathways and how does it work?",
+    "How do I qualify for K-level or AP courses?",
+    "What are the dual credit eligibility requirements?",
+    "Is Algebra II required to graduate?",
+    "How is class rank and GPA calculated for Class of 2030?",
+    "What are my options to meet the PE requirement?",
+    "What happens if I get a 74 in an AP class?",
+    "What is the FAFSA graduation requirement?",
+    "What changed in Social Studies for Class of 2030?",
+    "What is the Distinguished Level of Achievement?",
+    "How does Computer Science satisfy the LOTE requirement?"
+  ],
+  "handbookQA": [
+    {
+      "topic": "credits",
+      "keywords": [
+        "how many credits",
+        "total credits needed",
+        "credits to graduate",
+        "26 credits",
+        "foundation credits",
+        "graduation credits",
+        "how many classes"
+      ],
+      "answer": "You need 26 total credits to graduate under the Foundation + Endorsement plan: 22 Foundation credits plus 4 endorsement credits (1 advanced math, 1 advanced science, 2 additional electives). Without an endorsement the minimum is 22 credits, but you won't receive an endorsement designation on your diploma.",
+      "source": "Graduation Requirements (p. 23–27)"
+    },
+    {
+      "topic": "credits",
+      "keywords": [
+        "what counts as a credit",
+        "one credit",
+        "carnegie credit",
+        "credits per year",
+        "how credits work",
+        "semester credit"
+      ],
+      "answer": "One year of coursework earns 1 Carnegie credit per course. CFISD high schools run on a semester system with 7 classes per day, so you can earn up to 7 credits per regular school year. Additional credits can be earned through summer school, correspondence, credit-by-exam, Virtual Pathways, or dual credit college courses.",
+      "source": "General Registration Information (p. 4)"
+    },
+    {
+      "topic": "english",
+      "keywords": [
+        "english requirement",
+        "english credits",
+        "english i ii iii iv",
+        "how many english classes",
+        "english graduation"
+      ],
+      "answer": "You must complete 4 English credits — English I, II, III, and IV — taken in sequence. K-level, AP, and Dual Credit versions are available. Dual Credit English III requires passing the English II EOC assessment before enrolling.",
+      "source": "Graduation Requirements (p. 23)"
+    },
+    {
+      "topic": "math",
+      "keywords": [
+        "math requirement",
+        "math credits",
+        "algebra geometry",
+        "mathematics graduation",
+        "how many math",
+        "required math courses"
+      ],
+      "answer": "You need 3 math credits for the Foundation plan: Algebra I, Geometry, and one additional math course. The endorsement adds 1 more advanced math credit (4 total). Algebra II is not required to graduate but IS required for the Distinguished Level of Achievement and college automatic admission.",
+      "source": "Graduation Requirements (p. 23–26)"
+    },
+    {
+      "topic": "math",
+      "keywords": [
+        "algebra ii required",
+        "do i need algebra 2",
+        "algebra 2 graduation",
+        "distinguished level algebra",
+        "why take algebra ii"
+      ],
+      "answer": "Algebra II is NOT required to graduate under the Foundation plan. However, without Algebra II you cannot earn the Distinguished Level of Achievement, which means you won't qualify for automatic college admission (top 10% rule) or the TEXAS Grant and Texas Educational Opportunity Grant financial aid programs. Most college-bound students should take it.",
+      "source": "Graduation Requirements (p. 23–24)"
+    },
+    {
+      "topic": "science",
+      "keywords": [
+        "science requirement",
+        "science credits",
+        "biology chemistry physics",
+        "how many science classes",
+        "required science"
+      ],
+      "answer": "You need 3 science credits: Biology (required for all students), plus IPC, Chemistry, or Physics, plus one additional science. The endorsement adds 1 more advanced science credit (4 total). Biology is the only state-mandated specific science course.",
+      "source": "Graduation Requirements (p. 23–26)"
+    },
+    {
+      "topic": "social studies",
+      "keywords": [
+        "social studies requirement",
+        "history requirement",
+        "government economics",
+        "world geography world history",
+        "us history requirement",
+        "social studies credits"
+      ],
+      "answer": "You need 3 social studies credits. Classes of 2018–2029: World Geography or World History, U.S. History, Government (½ credit), and Economics (½ credit). Class of 2030 and beyond: World Geography, World History, or Economics (choose one), U.S. History, Government (½ credit), and Personal Financial Literacy (½ credit). AP Human Geography may substitute for World Geography.",
+      "source": "Graduation Requirements (p. 23–27)"
+    },
+    {
+      "topic": "social studies",
+      "keywords": [
+        "personal financial literacy",
+        "pfl requirement",
+        "class of 2030 social studies",
+        "economics vs pfl",
+        "new social studies"
+      ],
+      "answer": "Starting with the Class of 2030 (entering 9th grade Fall 2026+), Personal Financial Literacy (½ credit) replaces Economics (½ credit) as a graduation requirement. Economics itself becomes one of three options for the first social studies requirement alongside World Geography and World History. AP Economics may substitute for Personal Financial Literacy.",
+      "source": "Graduation Requirements for Class of 2030+ (p. 26–27)"
+    },
+    {
+      "topic": "language",
+      "keywords": [
+        "foreign language requirement",
+        "lote requirement",
+        "language other than english",
+        "two language credits",
+        "same language",
+        "spanish french requirement"
+      ],
+      "answer": "You need 2 credits in the same foreign language (e.g., Spanish I and Spanish II). The two credits must be in the same language — you cannot mix Spanish I and French I. Computer Science I K also satisfies the LOTE graduation requirement as an alternative.",
+      "source": "Graduation Requirements (p. 23–25)"
+    },
+    {
+      "topic": "language",
+      "keywords": [
+        "computer science lote",
+        "cs instead of language",
+        "computer science foreign language",
+        "cs satisfies lote"
+      ],
+      "answer": "Yes — Computer Science I K (and Computer Science II K) satisfies the LOTE (Language Other Than English) graduation requirement. This is a popular option for students in the STEM endorsement pathway who want to use CS credits toward their foreign language requirement.",
+      "source": "Workforce/Academic Dual Credit (p. 11–12)"
+    },
+    {
+      "topic": "pe",
+      "keywords": [
+        "pe requirement",
+        "physical education",
+        "pe credit",
+        "how to satisfy pe",
+        "band counts pe",
+        "athletics pe",
+        "pe alternatives",
+        "afjrotc pe",
+        "marching band pe",
+        "drill team pe",
+        "off campus pe"
+      ],
+      "answer": "You need 1 PE credit to graduate. Starting Fall 2022, only 2 PE credits maximum count toward graduation. You can satisfy PE through: marching band (fall semester), cheerleading (fall semester), drill team (both semesters), athletics, AFJROTC, or a district-approved Olympic-caliber off-campus training program. Up to 4 PE credits can be earned through off-campus PE, athletics, or AFJROTC, though only 2 count toward graduation.",
+      "source": "Graduation Requirements (p. 24–25)"
+    },
+    {
+      "topic": "fine arts",
+      "keywords": [
+        "fine arts requirement",
+        "art credit",
+        "music credit",
+        "theatre credit",
+        "fine arts graduation",
+        "dance credit",
+        "floral design",
+        "sequential semesters fine arts"
+      ],
+      "answer": "You need 1 fine arts credit. Approved options include art, music, dance, theatre, and floral design. You must take 2 sequential semesters of the SAME course — for example, Art I fall and Art I spring. You cannot combine two different fine arts courses to satisfy this requirement.",
+      "source": "Graduation Requirements (p. 24–25)"
+    },
+    {
+      "topic": "health",
+      "keywords": [
+        "health requirement",
+        "health credit",
+        "health class",
+        "principles of health science",
+        "health graduation",
+        "cpr requirement"
+      ],
+      "answer": "Health (½ credit) is required for graduation through the Class of 2028. It can be taken in any grade or through correspondence, summer school, or credit-by-exam. Completing Principles of Health Science satisfies the health requirement. CPR instruction is embedded in Health class as a state requirement.",
+      "source": "Graduation Requirements (p. 24–25)"
+    },
+    {
+      "topic": "pace",
+      "keywords": [
+        "pace",
+        "pace plus",
+        "9th grade required course",
+        "freshman required class",
+        "pace credit",
+        "what is pace",
+        "speech teks pace",
+        "cpr pace"
+      ],
+      "answer": "PACE (Personal, Academic & Career Exploration) is required for ALL 9th graders and earns ½ credit. PACE Plus (1 credit) is required instead for students who did not pass all 8th-grade core academic classes or did not meet STAAR state standards. Both PACE and PACE Plus embed the state-required Speech TEKS and CPR instruction.",
+      "source": "Graduation Requirements (p. 23–24)"
+    },
+    {
+      "topic": "fafsa",
+      "keywords": [
+        "fafsa",
+        "tafsa",
+        "financial aid graduation requirement",
+        "fafsa diploma",
+        "opt out fafsa",
+        "do i have to file fafsa"
+      ],
+      "answer": "Completing FAFSA or TAFSA is a graduation requirement — you cannot receive your diploma without it. A parent or legal guardian may submit written notice to opt out on your behalf. Students who are at least 18 years old may opt themselves out in writing. The opt-out must be submitted proactively; it does not happen automatically.",
+      "source": "Graduation Requirements (p. 24–27)"
+    },
+    {
+      "topic": "electives",
+      "keywords": [
+        "elective credits",
+        "how many electives",
+        "free electives",
+        "elective requirement",
+        "choose electives"
+      ],
+      "answer": "The Foundation plan requires 4.5 elective credits. The endorsement adds 2 more, for 6.5 elective credits total. These electives are where you build your endorsement pathway — CTE sequences, additional CS courses, journalism, etc.",
+      "source": "Graduation Requirements (p. 23–27)"
+    },
+    {
+      "topic": "distinguished",
+      "keywords": [
+        "distinguished level",
+        "distinguished level of achievement",
+        "automatic admission",
+        "top 10 percent plan",
+        "texas grant distinguished",
+        "algebra ii distinguished",
+        "what is distinguished level"
+      ],
+      "answer": "The Distinguished Level of Achievement requires completing the Foundation + Endorsement plan AND including Algebra II. It qualifies you for automatic college admission (top 10% rule), TEXAS Grant Program, and Texas Educational Opportunity Grant. Without Algebra II, you lose all three of these benefits even if you graduate with an endorsement.",
+      "source": "Graduation Requirements (p. 23–24)"
+    },
+    {
+      "topic": "top10",
+      "keywords": [
+        "top 10 percent",
+        "automatic college admission",
+        "top ten percent rule",
+        "guaranteed admission texas",
+        "ut austin top 10",
+        "rank admission"
+      ],
+      "answer": "Students in the top 10% of their graduating class from an accredited Texas school are automatically admitted to Texas public universities if they: completed the Distinguished Level of Achievement, met college readiness standards on ACT/SAT, submitted their application before deadlines, and met curriculum requirements. Note: UT Austin may cap the number admitted under this rule and may admit to the university but not a specific college within it.",
+      "source": "State Programs (p. 34–35)"
+    },
+    {
+      "topic": "klevel_entry",
+      "keywords": [
+        "how to get into ap",
+        "k level entry",
+        "academic advanced entry",
+        "ap requirements",
+        "85 average ap",
+        "first time ap",
+        "qualify for ap",
+        "entering advanced class",
+        "k level for the first time"
+      ],
+      "answer": "First-time entry into K-level (Academic Advanced) or AP requires ONE of: (1) 85+ yearly average in the previous on-level class in the same subject, OR (2) Masters Grade Level on STAAR (9th graders) or on the End-of-Course exam (10th–12th graders) for that subject. Parent permission is also required. Students already in K-level can continue if they earned a 75+ second-semester average.",
+      "source": "Advanced Classes Entry/Exit Criteria (p. 12–13)"
+    },
+    {
+      "topic": "klevel_entry",
+      "keywords": [
+        "staar masters k level",
+        "eoc masters ap",
+        "staar score advanced class",
+        "what staar score for ap",
+        "masters grade level"
+      ],
+      "answer": "Earning Masters Grade Level on STAAR or an End-of-Course (EOC) assessment qualifies you for first-time entry into K-level or AP without needing an 85 average. For example: Masters on 8th-grade Science STAAR qualifies for Biology Advanced; Masters on English I EOC qualifies for K-level English II; Masters on Algebra EOC qualifies for K-level Geometry or Geometry Advanced.",
+      "source": "First Time K-level Eligibility through STAAR/EOC (p. 13–14)"
+    },
+    {
+      "topic": "klevel_exit",
+      "keywords": [
+        "removed from ap",
+        "dropped from k level",
+        "ap removal",
+        "74 average ap",
+        "fail ap class",
+        "kicked out of ap",
+        "exit ap",
+        "what happens if i fail ap",
+        "74 in ap class",
+        "below 74 ap"
+      ],
+      "answer": "If you earn a semester average of 74 or lower in a K-level or AP class, you will be moved to an on-level class the following semester (if available). If you earn 69 or lower in any single grading period, you may be moved immediately for the rest of the year. No grade adjustments are made to semester averages when you're removed.",
+      "source": "Advanced Classes Exit Criteria (p. 12–13)"
+    },
+    {
+      "topic": "klevel_exit",
+      "keywords": [
+        "voluntary drop ap",
+        "request to leave ap",
+        "below 80 ap withdrawal",
+        "can i choose to leave ap",
+        "drop ap class",
+        "transfer out of k level"
+      ],
+      "answer": "You can voluntarily request to drop a K-level or Academic Advanced class with parent approval at the end of any grading period. If your average falls below 80 at the 3rd week, 6th week, or any grading period in a K-level class, you (with parent approval) may request a move to on-level for the rest of the year. If dropping from AP, you may move to K-level, Academic Advanced, or on-level. No grade adjustment when dropping from AP to K-level.",
+      "source": "Advanced Classes Exit Criteria (p. 12–13)"
+    },
+    {
+      "topic": "klevel_exit",
+      "keywords": [
+        "grade adjustment k level",
+        "grade points when dropping",
+        "drop from k to l level grade change",
+        "grade bump when leaving ap"
+      ],
+      "answer": "When you move from a K-level or Academic Advanced class to an on-level class, grade adjustment points are added to your current 3-week average or final average in the 1st and 3rd grading periods only. No adjustment is made to semester averages, to grades earned in previous grading periods, or to failing grades (a failing grade won't be bumped above 69). Adjustments are also not made to grades of B or higher.",
+      "source": "Advanced Classes Entry/Exit Criteria (p. 12–13)"
+    },
+    {
+      "topic": "dual_credit",
+      "keywords": [
+        "dual credit",
+        "college credit in high school",
+        "lone star college",
+        "how to get dual credit",
+        "dual enrollment",
+        "earn college credit",
+        "dual credit eligibility"
+      ],
+      "answer": "To qualify for dual credit you must meet ONE academic criterion: 85+ yearly average in the previous on-level course in that subject, OR 75+ second-semester average in the previous K-level course in that subject, OR Masters Grade Level on STAAR/EOC. You also need to: meet college prerequisites, pass placement exams, complete the Lone Star College-CyFair exceptional admissions process, and get campus Dual Credit team approval.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "dual_credit",
+      "keywords": [
+        "dual credit english iii",
+        "dc english 3",
+        "english ii eoc dual credit",
+        "prerequisite dual credit english",
+        "passing eoc for dual credit"
+      ],
+      "answer": "To enroll in Dual Credit English III (ENGL 1301), you must have passed the English II End-of-Course (EOC) assessment. This is a specific additional requirement on top of the standard dual credit eligibility criteria.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "dual_credit",
+      "keywords": [
+        "workforce dual credit",
+        "workforce dc eligibility",
+        "dual credit trades",
+        "cte dual credit requirement",
+        "80 average workforce"
+      ],
+      "answer": "For Workforce Dual Credit courses (trades, CTE-based college courses), the eligibility requirement is stricter: you need an overall average of at least 80 in all courses, OR at least 80 in the last course taken in that subject area. The standard 85/75/Masters criteria applies to academic dual credit.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "dual_credit",
+      "keywords": [
+        "dual credit tuition",
+        "does dual credit cost money",
+        "pay for dual credit",
+        "lone star tuition",
+        "dual credit fees"
+      ],
+      "answer": "Lone Star College may waive all or part of tuition and required fees for CFISD students in dual credit courses. Students are responsible for any remaining required fees and textbook costs. Students taking dual credit in the summer are responsible for all textbook costs and may need to satisfy bacterial meningitis requirements.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "dual_credit",
+      "keywords": [
+        "dual credit us history eoc",
+        "dc us history test",
+        "us history dual credit eoc",
+        "end of course us history dc"
+      ],
+      "answer": "Students enrolling in Dual Credit U.S. History will take the U.S. History End-of-Course (EOC) assessment the following December.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "dual_credit",
+      "keywords": [
+        "8 week course dual credit",
+        "mini mester dual credit",
+        "short term dual credit",
+        "lone star 8 week"
+      ],
+      "answer": "8-week and mini-mester courses offered at Lone Star College throughout the school year are NOT approved dual credit options for CFISD students. Only full-semester courses qualify.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "gpa",
+      "keywords": [
+        "gpa scale",
+        "grade points",
+        "weighted gpa",
+        "how is gpa calculated",
+        "6.0 gpa",
+        "ap grade points",
+        "k level grade points",
+        "what gpa do i need"
+      ],
+      "answer": "CFISD uses a weighted GPA scale. For Classes through 2029: A in K/AP/HORIZONS = 7 pts, on-level A = 6 pts, below-level A = 5 pts, LIFE Skills A = 4 pts. For Class of 2030+, a new 5-column scale is used: AP/Dual Credit A = 7, K-level (Advanced) A = 6.5, on-level A = 6, below-level A = 5, LIFE Skills A = 4. Semester grade = (3/7 × GP1) + (3/7 × GP2) + (1/7 × Semester Exam).",
+      "source": "Class Ranking & Grading Scale (p. 20–22)"
+    },
+    {
+      "topic": "gpa",
+      "keywords": [
+        "class rank",
+        "how is class rank determined",
+        "rank calculation",
+        "gpa vs class rank",
+        "when is rank calculated",
+        "class standing"
+      ],
+      "answer": "Class rank is determined by GPA. All high school courses count — including dual credit, summer school, correspondence, night school, and credit-by-exam — EXCEPT student assistant courses, local credit courses, and pass/fail courses. GPA and class rank are calculated each summer after 9th and 10th grade. Estimated rankings are produced at the end of junior year and first semester of senior year for college applications.",
+      "source": "Class Ranking (p. 20–21)"
+    },
+    {
+      "topic": "gpa",
+      "keywords": [
+        "semester exam weight",
+        "how is semester grade calculated",
+        "semester formula",
+        "exam counts how much",
+        "1/7 semester exam"
+      ],
+      "answer": "Your semester grade is calculated as: (3/7 × Grading Period 1 average) + (3/7 × Grading Period 2 average) + (1/7 × Semester Exam score). This means the semester exam counts for about 14% of your grade and each grading period counts for about 43%.",
+      "source": "Class Ranking (p. 21)"
+    },
+    {
+      "topic": "gpa",
+      "keywords": [
+        "4 math gpa",
+        "4 science gpa",
+        "algebra i 8th grade gpa",
+        "which math counts gpa",
+        "which science counts gpa"
+      ],
+      "answer": "Only 4 math and 4 science courses count in your GPA calculation. If you took Algebra I in 8th grade and take 4 more math courses in grades 9–12, the 8th-grade Algebra I does NOT count in GPA — the 4 high school math courses do. But if you took Algebra I in 8th grade and only take 3 more math courses in high school, then the 8th-grade Algebra I DOES get included. Algebra I always earns on-level grade points regardless of when taken.",
+      "source": "Class Ranking (p. 21–22)"
+    },
+    {
+      "topic": "honors",
+      "keywords": [
+        "summa cum laude",
+        "magna cum laude",
+        "cum laude",
+        "honor graduate",
+        "graduation honors",
+        "6.5 gpa",
+        "honor designation",
+        "honor roll graduation"
+      ],
+      "answer": "At graduation, three honor designations are awarded: Summa Cum Laude (6.5 GPA or higher), Magna Cum Laude (6.25 GPA or higher), and Cum Laude (6.0 GPA or higher). The final GPA is calculated at the end of senior year. Separately, during the school year, the honor roll has two levels: Distinguished Honor Roll (all 90s) and Regular Honor Roll (majority 90s, rest 80–89), with a conduct grade of at least S required.",
+      "source": "Class Ranking & Honor Roll (p. 20–23)"
+    },
+    {
+      "topic": "schedule",
+      "keywords": [
+        "schedule change",
+        "change my classes",
+        "drop a class",
+        "course change deadline",
+        "april deadline",
+        "when to change courses",
+        "add drop classes",
+        "first two weeks"
+      ],
+      "answer": "Course requests for the following year must be submitted in writing by the last day of April. Once the school year starts, changes are only allowed in the first 2 weeks of each semester, and only for specific reasons: you don't meet the prerequisite, you already have the credit, you're in the wrong level, or there's a scheduling conflict. No course changes are allowed after the 2nd week except for rare district-policy exceptions involving AP/K-level level changes.",
+      "source": "Course Selection & Changes (p. 5)"
+    },
+    {
+      "topic": "grade_level",
+      "keywords": [
+        "sophomore requirements",
+        "junior requirements",
+        "senior requirements",
+        "grade classification",
+        "how to become a junior",
+        "how many credits to be a senior",
+        "classification standards",
+        "grade promotion"
+      ],
+      "answer": "Grade classification: 9th grade = promotion from middle school. 10th grade = 1 year attendance + 5 credits (must include English I and Algebra I). 11th grade = 2 years attendance + 11 credits. 12th grade = 3 years attendance + 17 credits, or an approved early graduation plan.",
+      "source": "Grade Classification Standards (p. 5)"
+    },
+    {
+      "topic": "cbe",
+      "keywords": [
+        "credit by exam",
+        "test out of a class",
+        "cbe",
+        "original credit exam",
+        "skip a class",
+        "pass out of course",
+        "credit without taking class"
+      ],
+      "answer": "You can earn credit through Credit-by-Exam (CBE). Without prior instruction (original credit): you must score 80 or higher. With prior instruction (you've already studied the material elsewhere): you must score 70 or higher, and a fee is charged. CBE credits appear on your transcript and count in GPA. You cannot take a CBE for a course you are currently enrolled in that same semester.",
+      "source": "Other Learning Opportunities (p. 14–15)"
+    },
+    {
+      "topic": "pass_fail",
+      "keywords": [
+        "pass fail",
+        "pass/fail option",
+        "p/f grade",
+        "take course pass fail",
+        "pass fail gpa",
+        "pass fail impact rank",
+        "can i take a course pass fail"
+      ],
+      "answer": "11th and 12th graders may take up to 1 extra course per year on a pass/fail basis (1 as a junior, 1 as a senior). These must be courses beyond the 26 required for graduation, and only certain district-designated courses qualify. You must declare pass/fail intent within the first 2 weeks of the semester. P or F appears on your transcript. Pass/fail grades do NOT count in GPA or class rank, but your actual numerical grade still determines UIL eligibility, honor roll, NHS, and other activity eligibility.",
+      "source": "Advanced Courses on a Pass/Fail Basis (p. 19)"
+    },
+    {
+      "topic": "correspondence",
+      "keywords": [
+        "correspondence course",
+        "correspondence learning",
+        "online course outside cfisd",
+        "ut correspondence",
+        "texas tech correspondence",
+        "correspondence credit",
+        "earn credit at home"
+      ],
+      "answer": "You may earn up to 2 correspondence learning credits toward graduation. You must get counselor approval before enrolling, have completed at least one semester of 9th grade, maintain a 75 overall GPA, and have a 75 average in a similar prior course. Only courses from UT Austin or Texas Tech University are recognized by TEA. All correspondence grades count in your GPA. Seniors must complete correspondence courses and have grades reported before the 16th week of the fall semester — after that deadline, the course shows as WD (withdrawn) on your transcript and counts against GPA.",
+      "source": "Correspondence Learning (p. 19–20)"
+    },
+    {
+      "topic": "early_grad",
+      "keywords": [
+        "early graduation",
+        "graduate early",
+        "leave school early",
+        "3 years high school",
+        "early diploma",
+        "declaration of intent graduate early"
+      ],
+      "answer": "You can graduate early in 3 ways: (1) June after 3 complete years of high school (36 months), (2) the summer after 3 years (38 months), or (3) December of your 4th year (43 months — you can still walk in spring graduation). You must file a Declaration of Intent to Graduate Early, signed by a parent, with your counselor at least one semester before your intended graduation date.",
+      "source": "Early Graduation (p. 20)"
+    },
+    {
+      "topic": "commencement",
+      "keywords": [
+        "walk at graduation",
+        "participate in commencement",
+        "graduation ceremony eligibility",
+        "can i walk at graduation",
+        "graduation requirements to walk",
+        "22 credits commencement"
+      ],
+      "answer": "To participate in commencement (the graduation ceremony), you must have earned at least 22 credits in designated courses AND passed all 5 required state EOC assessments (English I, English II, Algebra I, Biology, U.S. History).",
+      "source": "Class Ranking (p. 22)"
+    },
+    {
+      "topic": "eoc",
+      "keywords": [
+        "eoc",
+        "end of course",
+        "staar test high school",
+        "required state tests",
+        "5 eoc tests",
+        "pass eoc to graduate",
+        "state assessment graduation",
+        "english i eoc",
+        "algebra eoc"
+      ],
+      "answer": "You must pass 5 End-of-Course (EOC) STAAR assessments to graduate: English I, English II, Algebra I, Biology, and U.S. History. You take each EOC during the school year you are enrolled in that course. You cannot retake a passed EOC. EOC scores do not affect your course grade.",
+      "source": "Testing Requirements for High School Graduation (p. 31)"
+    },
+    {
+      "topic": "summer",
+      "keywords": [
+        "summer school",
+        "summer credit",
+        "summer class",
+        "make up class summer",
+        "original credit summer",
+        "summer school gpa"
+      ],
+      "answer": "CFISD offers both original credit and make-up credit courses each summer. Summer school credits always earn on-level grade points only — even if you're otherwise enrolled in K-level or AP courses during the regular school year.",
+      "source": "Summer School (p. 15)"
+    },
+    {
+      "topic": "txvsn",
+      "keywords": [
+        "txvsn",
+        "texas virtual school network",
+        "online course txvsn",
+        "virtual school network",
+        "one online course per semester",
+        "txvsn gpa"
+      ],
+      "answer": "The Texas Virtual School Network (TxVSN) lets you take online courses for grades 9–12. Courses must match your graduation plan and be counselor-approved. You may take only 1 TxVSN course per semester. All TxVSN courses appear on your transcript and count in GPA. Fees vary and are your responsibility.",
+      "source": "Online Courses / TxVSN (p. 15)"
+    },
+    {
+      "topic": "virtual",
+      "keywords": [
+        "virtual pathways",
+        "cfisd virtual",
+        "virtual academy",
+        "flex learning",
+        "supplemental courses",
+        "online school cfisd",
+        "hybrid schedule",
+        "fully online option",
+        "cfisd online program"
+      ],
+      "answer": "CFISD launched Virtual Pathways in 2026–27 with three options: (1) Virtual Academy — fully online, primarily asynchronous, for grades 9–12, students stay enrolled at their home campus. (2) Flex Learning — hybrid for 11th–12th graders, mostly on campus but 1–2 classes online, can arrive late or leave early. (3) Supplemental Courses — tuition-based courses taken outside the school day for acceleration, credit recovery, or extra electives (grades 9–12). All Virtual Pathways courses count in GPA.",
+      "source": "CFISD Virtual Pathways (p. 15–16)"
+    },
+    {
+      "topic": "endorsements",
+      "keywords": [
+        "what is an endorsement",
+        "endorsement options",
+        "5 endorsements",
+        "graduation endorsement",
+        "types of endorsements",
+        "endorsement on diploma",
+        "do i need an endorsement"
+      ],
+      "answer": "Every CFISD student pursues one of 5 endorsements that appear on their diploma: STEM, Business & Industry, Public Services, Arts & Humanities, or Multidisciplinary Studies. An endorsement adds 4 credits beyond the 22-credit Foundation plan (1 advanced math, 1 advanced science, 2 electives) and focuses your course pathway. You select an endorsement during registration and can change it with counselor help.",
+      "source": "Endorsements (p. 27–29)"
+    },
+    {
+      "topic": "endorsements",
+      "keywords": [
+        "stem endorsement",
+        "stem requirements",
+        "stem pathway",
+        "algebra ii chemistry physics stem",
+        "computer science endorsement",
+        "engineering endorsement"
+      ],
+      "answer": "The STEM endorsement requires Algebra II, Chemistry, and Physics regardless of route. Five options: (1) Computer Science — 4 CS courses including CS I K, AP CSP, CS II K, CS III K; (2) CTE Engineering — 4 CTE credits in STEM cluster with 1 advanced; (3) Math — Algebra II + 2 Algebra-II-prereq courses; (4) Science — Biology + Chem + Physics + 2 advanced sciences from an approved list; (5) Combination — Algebra II + Chem + Physics + 1 extra math + 1 extra science + 3 CS/CTE credits.",
+      "source": "Endorsements — STEM (p. 27–29)"
+    },
+    {
+      "topic": "endorsements",
+      "keywords": [
+        "business industry endorsement",
+        "business endorsement",
+        "cte endorsement",
+        "journalism endorsement",
+        "debate endorsement",
+        "business pathway"
+      ],
+      "answer": "The Business & Industry endorsement has 3 options: (1) CTE Sequence — 4 credits in an approved cluster (Ag, Architecture, Arts/A-V, Business, Hospitality, IT, Manufacturing, Transportation) with at least 1 advanced course; (2) Journalism/Debate — 4 English elective credits with 3 levels in Advanced Journalism or Debate; (3) Combination — a coherent 4-credit sequence from options 1 and 2 with at least 1 advanced CTE course.",
+      "source": "Endorsements — Business & Industry (p. 27–28)"
+    },
+    {
+      "topic": "endorsements",
+      "keywords": [
+        "public services endorsement",
+        "healthcare endorsement",
+        "nursing endorsement",
+        "teaching endorsement",
+        "afjrotc endorsement",
+        "human services endorsement",
+        "health science endorsement"
+      ],
+      "answer": "The Public Services endorsement has 2 options: (1) CTE — 4 credits in Education & Training, Health Science, or Human Services cluster with at least 1 advanced course (3rd year or higher); (2) AFJROTC — 4 AFJROTC courses.",
+      "source": "Endorsements — Public Services (p. 27–28)"
+    },
+    {
+      "topic": "endorsements",
+      "keywords": [
+        "arts humanities endorsement",
+        "art endorsement",
+        "music endorsement",
+        "language endorsement",
+        "social studies endorsement",
+        "fine arts endorsement",
+        "humanities pathway"
+      ],
+      "answer": "The Arts & Humanities endorsement has 3 options: (1) Social Studies — 5 social studies credits; (2) Languages — 4 levels of the same foreign language, OR 2 levels each in 2 different languages; (3) Fine Arts — 4 courses in the same fine arts area, OR 2 courses each in 2 different fine arts areas.",
+      "source": "Endorsements — Arts & Humanities (p. 27–28)"
+    },
+    {
+      "topic": "endorsements",
+      "keywords": [
+        "multidisciplinary endorsement",
+        "broad college prep endorsement",
+        "4x4 endorsement",
+        "ap dual credit endorsement",
+        "undecided endorsement",
+        "general endorsement"
+      ],
+      "answer": "The Multidisciplinary Studies endorsement has 2 options: (1) 4x4 — 4 English (including English IV) + 4 Math + 4 Science (Biology + Chem and/or Physics) + 4 Social Studies; (2) AP/Dual Credit — 4 AP or Dual Credit courses (or a combination) in English, math, science, social studies, foreign language, or fine arts.",
+      "source": "Endorsements — Multidisciplinary Studies (p. 28)"
+    },
+    {
+      "topic": "cs",
+      "keywords": [
+        "computer science i",
+        "cs i k",
+        "cs 1",
+        "computer science 1",
+        "cs i prerequisite",
+        "what is cs i k"
+      ],
+      "answer": "Computer Science I K is available in grades 9–12. Prerequisites: Algebra I. It satisfies the LOTE (Language Other Than English) graduation requirement. It also earns dual college credit through Lone Star College-CyFair (COSC 1301 fall + COSC 1315 spring, 3 college credit hours each semester).",
+      "source": "Workforce/Academic Dual Credit & CS Descriptions (p. 11–12)"
+    },
+    {
+      "topic": "cs",
+      "keywords": [
+        "computer science ii",
+        "cs ii k",
+        "cs 2",
+        "computer science 2",
+        "cs ii prerequisite"
+      ],
+      "answer": "Computer Science II K is available in grades 10–12 (9th graders may enroll concurrently with Algebra II). Prerequisites: CS I K AND Algebra II (or concurrent enrollment). Also satisfies LOTE. Earns dual credit: COSC 1436 fall + COSC 1437 spring (4 college credit hours each semester).",
+      "source": "Workforce/Academic Dual Credit & CS Descriptions (p. 11–12)"
+    },
+    {
+      "topic": "cs",
+      "keywords": [
+        "ap computer science principles",
+        "ap csp",
+        "ap cs principles",
+        "csp prerequisite",
+        "when to take csp"
+      ],
+      "answer": "AP Computer Science Principles is available in grades 9–12. Prerequisite: Algebra I. It is recommended to take it BEFORE or CONCURRENTLY with CS II K, and may NOT be taken after CS III K.",
+      "source": "Computer Science Descriptions"
+    },
+    {
+      "topic": "acknowledgments",
+      "keywords": [
+        "performance acknowledgment",
+        "acknowledgement transcript",
+        "dual credit acknowledgment",
+        "bilingual acknowledgment",
+        "ap exam acknowledgment",
+        "industry certification acknowledgment",
+        "psat acknowledgment",
+        "sat acknowledgment"
+      ],
+      "answer": "You can earn Performance Acknowledgments on your diploma/transcript for outstanding achievement in: (1) Dual Credit — 12+ college credit hours with A or B grades; (2) Bilingual/Bi-literacy — completing English requirements with 80+ AND meeting foreign language proficiency criteria; (3) AP exam — score of 3 or higher; (4) PSAT/SAT/ACT — PSAT commended scholar, SAT 1350+ combined, or ACT composite 29+; (5) Nationally/internationally recognized industry certification.",
+      "source": "Performance Acknowledgments (p. 29–30)"
+    },
+    {
+      "topic": "articulation",
+      "keywords": [
+        "articulation agreement",
+        "college credit high school course",
+        "houston community college",
+        "lone star articulation",
+        "high school course college credit",
+        "advanced standing college"
+      ],
+      "answer": "CFISD has articulation agreements with Lone Star College System and Houston Community College System. Students who complete designated high school courses with qualifying grades and later enroll in a specified college program may receive college credit hours or advanced standing — allowing them to take higher-level college courses. The current approved course list is on the Lone Star College website.",
+      "source": "Articulation Agreements (p. 15)"
+    },
+    {
+      "topic": "transfer",
+      "keywords": [
+        "transfer student",
+        "new student credits",
+        "transferring to cfisd",
+        "credits from other school",
+        "private school transfer",
+        "home school transfer",
+        "out of state transfer",
+        "transcript credit"
+      ],
+      "answer": "New CFISD students receive credit for all transcripted high school courses from their previous school. However, how those credits count toward GPA and class rank follows CFISD's own GPA structure — they may be included or excluded depending on how they align with CFISD's classification system. Credits from accredited private schools are accepted by transcript. Credits from unaccredited private schools or home schools require credit-by-exam to be awarded.",
+      "source": "New Students & Class Ranking (p. 4, 20)"
+    },
+    {
+      "topic": "horizons",
+      "keywords": [
+        "horizons",
+        "gifted program",
+        "gifted talented",
+        "horizons program",
+        "gt program cfisd",
+        "how to get into horizons",
+        "gifted referral",
+        "open referral period"
+      ],
+      "answer": "HORIZONS is CFISD's program for students identified as gifted and talented. Parents can refer their child for screening annually during the Open Referral Period (October 1 through the last school day in November) via the CFISD Parent Portal. HORIZONS courses carry the same grade point weighting as K-level and AP courses. The K-level/Academic Advanced entry/exit criteria also apply to HORIZONS students in cluster classes.",
+      "source": "K-Level and AP Courses (p. 6)"
+    },
+    {
+      "topic": "cte",
+      "keywords": [
+        "cte courses",
+        "career technical education",
+        "cte program",
+        "what are cte courses",
+        "cte credits",
+        "cte sequence",
+        "career pathway",
+        "practicum cte"
+      ],
+      "answer": "Career and Technical Education (CTE) courses are organized into industry clusters — Agriculture, Architecture, Arts/A-V/Communication, Business/Marketing/Finance, Education, Health Science, Hospitality, IT, Manufacturing, Transportation. To earn an endorsement through CTE, you typically need 4 credits in a cluster with at least 1 advanced course (3rd year or higher in the sequence). Practicum courses for juniors and seniors (16+ years old) may involve off-campus instruction and require your own transportation.",
+      "source": "Course Offerings (p. 5)"
+    },
+    {
+      "topic": "virtual_endorsements",
+      "keywords": [
+        "virtual student endorsement",
+        "online student endorsement",
+        "virtual academy endorsement",
+        "endorsement fully virtual",
+        "can virtual students get endorsement"
+      ],
+      "answer": "Fully virtual students (CFISD Virtual Academy) can earn the following endorsements in 2026–27: Multidisciplinary Studies (4x4 route), STEM via Computer Science (4 CS courses), STEM via CTE (Engineering program of study), STEM via Math, Business & Industry via Architecture program of study, Arts & Humanities via 5 Social Studies credits, Arts & Humanities via 4 Spanish (or 2 Spanish + 2 of another language).",
+      "source": "CFISD Virtual Pathways (p. 17–18)"
+    },
+    {
+      "topic": "general",
+      "keywords": [
+        "what endorsement should i choose",
+        "which endorsement is best",
+        "help choose endorsement",
+        "undecided endorsement",
+        "change endorsement",
+        "switch endorsement"
+      ],
+      "answer": "The best endorsement depends on your interests and career goals. Use the 'Find My Path' tab in this app to match your interests to an endorsement. Multidisciplinary Studies is the most flexible — it keeps all college doors open. STEM suits students interested in technology, engineering, science, or math. You can change your endorsement with counselor help, and sophomore year is the best time to make that switch before it affects junior-year course availability.",
+      "source": "Endorsements Overview (p. 27–29)"
+    },
+    {
+      "topic": "general",
+      "keywords": [
+        "what is horizons",
+        "what is k level",
+        "what is ap",
+        "difference ap k level",
+        "k level vs ap",
+        "academic advanced vs ap"
+      ],
+      "answer": "K-level (also called Academic Advanced) courses extend grade-level learning and prepare you for future advanced coursework. AP (Advanced Placement) courses go beyond grade-level and can earn you college credit if you score 3 or higher on the AP exam. HORIZONS is CFISD's gifted/talented program, with the same grade point weighting as K-level/AP. All three have the same entry criteria (85+ average or Masters on STAAR/EOC) and exit criteria (74 or below leads to removal).",
+      "source": "K-Level and AP Courses (p. 6, 12–13)"
+    },
+    {
+      "topic": "general",
+      "keywords": [
+        "when should i take ap",
+        "is ap worth it",
+        "ap pros cons",
+        "should i take ap classes",
+        "how many ap classes"
+      ],
+      "answer": "AP courses are most valuable when you're genuinely interested in the subject and have met the prerequisites with strong grades. Passing the AP exam (score of 3+) can earn college credit and earn a Performance Acknowledgment on your transcript. However, a 74 or lower semester average gets you removed. Balance rigor with realistic performance — a strong grade in an on-level or K-level class is better for GPA and class rank than a weak grade in AP.",
+      "source": "Advanced Classes Entry/Exit Criteria (p. 12–13)"
+    },
+    {
+      "topic": "general",
+      "keywords": [
+        "counselor contact",
+        "talk to counselor",
+        "see counselor",
+        "counselor help",
+        "counselor appointment",
+        "counselor office",
+        "when to see counselor"
+      ],
+      "answer": "Your Bridgeland High School counselor is your best resource for course selection, graduation audits, dual credit enrollment, endorsement changes, and personal circumstances. See the counselor contact information below. For schedule changes, contact the counselor's office before August 1 if you attended summer school or completed a correspondence course.",
+      "source": "General Guidance"
+    }
+  ],
+  "planner": {
+    "8": {
+      "grade": "8th Grade",
+      "emoji": "🔭",
+      "color": "#0A2240",
+      "stage": "Explore and Narrow Options",
+      "focus": "Use 8th grade to understand your interests, review high school sequencing, and avoid closing doors before freshman year starts. Decisions now — especially in math and language — can significantly expand or limit your options later.",
+      "checklist": [
+        "Discuss which of the 5 endorsements (STEM, Business & Industry, Public Services, Arts & Humanities, Multidisciplinary) feels like the best starting fit",
+        "Review Algebra I readiness — taking Algebra I in 8th grade creates more flexibility in high school scheduling",
+        "Consider starting a world language in 8th grade to create room for advanced courses later",
+        "Build a rough 4-year plan with your counselor, even if the final endorsement is not locked yet",
+        "Explore CTE intro courses available in middle school (e.g., BIM I, Principles of Applied Engineering) that earn HS credit"
+      ],
+      "milestones": [
+        "Identify top 2–3 interest areas using the 'Find My Path' tab",
+        "Discuss Algebra I placement with your math teacher",
+        "Start or continue a world language",
+        "Draft a 4-year course map with your counselor",
+        "Attend the high school registration information night"
+      ],
+      "watchouts": [
+        "Math placement — affects junior/senior course options significantly",
+        "Language continuity — 2 credits in the same language are required; starting late creates sequencing pressure",
+        "Fine arts — must be 2 sequential semesters; planning early helps",
+        "Taking HS-credit courses without the prerequisite readiness can backfire"
+      ],
+      "whatToReview": [
+        {
+          "icon": "📐",
+          "item": "Algebra I placement check with math teacher"
+        },
+        {
+          "icon": "🗣️",
+          "item": "World language level assessment and placement"
+        },
+        {
+          "icon": "🧭",
+          "item": "Endorsement interest survey — use the 'Find My Path' tab in this app"
+        },
+        {
+          "icon": "📋",
+          "item": "CFISD freshman course registration booklet"
+        },
+        {
+          "icon": "📅",
+          "item": "High school prerequisite chains for your interest areas"
+        }
+      ],
+      "familyQuestions": [
+        "Which endorsement best fits the student's strongest interests right now?",
+        "Is the student ready for Algebra I this year, or would extra prep be beneficial?",
+        "Does the student want a broad college-prep plan or a specific career focus?",
+        "Are there fine arts, language, or PE choices that should be planned from day one?",
+        "Would a middle-school CTE course free up room for advanced options in 11th–12th grade?",
+        "What does a realistic 4-year graduation plan look like based on current placement?"
+      ],
+      "coreCreditsToWatch": [
+        "Algebra I placement",
+        "World Language Level I",
+        "Fine Arts start",
+        "Endorsement intro course"
+      ]
+    },
+    "9": {
+      "grade": "9th Grade",
+      "emoji": "🏁",
+      "color": "#1A5276",
+      "stage": "Build Foundation and Keep Doors Open",
+      "focus": "Freshman year should cover required basics while starting a pathway sequence that does not close future options. Every course in 9th grade creates a prerequisite chain — choose courses that open the next door, not just fill a slot.",
+      "checklist": [
+        "Complete PACE (½ credit) — required for all 9th graders; PACE Plus (1 credit) required for some based on 8th grade performance",
+        "Enroll in English I, the appropriate math course, Biology, and a social studies course",
+        "Start endorsement-aligned electives or an intro CTE / Computer Science course",
+        "Track K/AP performance carefully — a 74 or lower semester average triggers removal from the advanced level",
+        "Confirm whether Algebra II is part of your long-term plan (needed for Distinguished Level of Achievement)",
+        "Meet with your counselor to confirm your 4-year plan and endorsement direction"
+      ],
+      "milestones": [
+        "Complete PACE or PACE Plus (grade 9 requirement)",
+        "Earn credits in English I, Math, Biology, and Social Studies",
+        "Identify and start endorsement pathway intro course",
+        "End year with 5+ credits (including English I & Algebra I) to advance to sophomore classification",
+        "K/AP check-in at each grading period if enrolled in advanced courses"
+      ],
+      "watchouts": [
+        "PACE / PACE Plus is mandatory — missing it affects your graduation plan",
+        "Starting K/AP without an 85+ average in the prior on-level course (entry criteria)",
+        "Taking courses that don't feed into your endorsement sequence",
+        "Fine arts must be 2 sequential semesters — plan the full year",
+        "Missing the 5-credit threshold delays sophomore classification"
+      ],
+      "whatToReview": [
+        {
+          "icon": "📘",
+          "item": "English I — required; K-level if eligible"
+        },
+        {
+          "icon": "📐",
+          "item": "Math progression: Algebra I → Geometry → Algebra II"
+        },
+        {
+          "icon": "🔬",
+          "item": "Biology — required for all students"
+        },
+        {
+          "icon": "🌍",
+          "item": "World Geography or World History (first social studies requirement)"
+        },
+        {
+          "icon": "💻",
+          "item": "Computer Science I K or an intro CTE course for endorsement start"
+        },
+        {
+          "icon": "🎨",
+          "item": "Fine Arts: start a 2-semester sequence (Art I, Band I, Theatre I, etc.)"
+        }
+      ],
+      "familyQuestions": [
+        "Is the student taking PACE (½ credit) or PACE Plus (1 credit), and do they know which applies?",
+        "Is the endorsement direction clear, and is at least one endorsement-aligned elective on the schedule?",
+        "Are there prerequisite courses needed in 9th grade for AP or Dual Credit eligibility in 11th grade?",
+        "Is Algebra II part of the long-term plan for Distinguished Level of Achievement?",
+        "Does the student understand the 74 semester average rule for K/AP removal?",
+        "Would a formal 4-year plan meeting with the counselor help the family see the full picture?"
+      ],
+      "coreCreditsToWatch": [
+        "English I",
+        "Algebra I or Geometry",
+        "Biology",
+        "World Geo or World History",
+        "PACE / PACE Plus"
+      ]
+    },
+    "10": {
+      "grade": "10th Grade",
+      "emoji": "📍",
+      "color": "#1E8449",
+      "stage": "Confirm Pathway Direction",
+      "focus": "Sophomore year is the best time to confirm your endorsement choice and review prerequisites for junior year. Decisions made now directly determine which AP and Dual Credit doors open — or close — in 11th and 12th grade.",
+      "checklist": [
+        "Confirm which endorsement is most realistic and still exciting — changes are still manageable this year",
+        "Review all prerequisites for the AP and Dual Credit courses you want in 11th grade",
+        "Determine whether Algebra II is on the schedule (required for Distinguished Level of Achievement)",
+        "Continue world language sequence if two credits in the same language are not yet earned",
+        "Check K/AP first-time entry eligibility: need 85+ yearly average in previous on-level, or Masters on STAAR/EOC",
+        "Verify you are on track for 11 credits at the end of 10th grade to advance to junior classification"
+      ],
+      "milestones": [
+        "Endorsement confirmed — pathway course sequence is coherent through graduation",
+        "Algebra II decision finalized (in plan or consciously opted out)",
+        "Dual credit eligibility requirements reviewed with counselor",
+        "Second-year endorsement / pathway course started",
+        "End year with 11+ credits to advance to junior classification"
+      ],
+      "watchouts": [
+        "Prerequisite gaps — AP Chemistry requires Biology + Chemistry + Algebra II",
+        "Dual Credit English III requires passing the English II EOC assessment",
+        "Dropping K/AP mid-year affects GPA weighting — requires counselor approval",
+        "Fine arts or PE credit gaps if not addressed this year",
+        "Fewer than 11 credits at year's end delays junior classification"
+      ],
+      "whatToReview": [
+        {
+          "icon": "📐",
+          "item": "Algebra II — strongly recommended for Distinguished Level of Achievement"
+        },
+        {
+          "icon": "📘",
+          "item": "English II — prerequisite for Dual Credit English III next year"
+        },
+        {
+          "icon": "🔬",
+          "item": "Chemistry — prerequisite for many AP sciences and STEM endorsement routes"
+        },
+        {
+          "icon": "💻",
+          "item": "Computer Science II K — if CS pathway is planned"
+        },
+        {
+          "icon": "🗣️",
+          "item": "Language Level II or III — continue toward 4-level sequence for Arts & Humanities"
+        },
+        {
+          "icon": "📋",
+          "item": "Counselor prerequisite audit for 11th grade AP / Dual Credit targets"
+        }
+      ],
+      "familyQuestions": [
+        "Is the endorsement confirmed and is the course sequence still coherent through graduation?",
+        "Does the student understand the dual credit eligibility requirements?",
+        "Is Algebra II part of the junior year plan for Distinguished Level of Achievement?",
+        "Are there science prerequisites (Biology + Chemistry) needed before AP Sciences in 11th grade?",
+        "Would AP or Dual Credit be a good fit based on current grades and the handbook criteria?",
+        "Are fine arts, language, or PE sequencing gaps at risk of becoming a problem by senior year?"
+      ],
+      "coreCreditsToWatch": [
+        "English II",
+        "Algebra II",
+        "Chemistry",
+        "World Language Level II",
+        "2nd endorsement pathway course"
+      ]
+    },
+    "11": {
+      "grade": "11th Grade",
+      "emoji": "🚀",
+      "color": "#7D6608",
+      "stage": "Go Deep and Use Advanced Options Strategically",
+      "focus": "Junior year is where transcripts become specialized and postsecondary alignment matters most. Use AP and Dual Credit carefully — only where readiness is strong and prerequisites are genuinely met. A challenging schedule with strong grades beats an overloaded one with poor performance.",
+      "checklist": [
+        "Use AP or Dual Credit only where readiness is strong and all prerequisites are confirmed",
+        "Deepen your pathway with advanced or practicum-level courses where available",
+        "Review class rank, GPA weighting, and endorsement completion status before spring registration",
+        "Confirm Dual Credit eligibility: 85+ yearly average (on-level) or 75+ second-semester average (K-level) or Masters on STAAR/EOC, plus Lone Star placement exam",
+        "Check whether K/AP performance at the semester mark triggers any required level changes",
+        "Schedule a graduation audit with your counselor to verify credit totals and endorsement status"
+      ],
+      "milestones": [
+        "Advanced or practicum-level pathway course completed or in progress",
+        "AP and/or Dual Credit used strategically where genuinely eligible",
+        "Class rank and GPA weighting reviewed with counselor",
+        "Endorsement completion status confirmed",
+        "End year with 17+ credits (or an early graduation plan) to advance to senior classification",
+        "Senior schedule planned with counselor before the April 30 change-request deadline"
+      ],
+      "watchouts": [
+        "Workforce dual credit requires 80+ overall average or 80+ in last subject-area course",
+        "Overloading on AP/DC when readiness isn't strong — a 74 triggers removal from K/AP",
+        "Dual Credit English III requires passing the English II EOC — confirm before enrolling",
+        "Students can take only one TxVSN course per semester",
+        "Course change requests must be in writing by April 30 for next year's schedule",
+        "A grading period average of 69 or lower in K/AP triggers immediate removal"
+      ],
+      "whatToReview": [
+        {
+          "icon": "🎓",
+          "item": "AP Courses — choose based on readiness; passing the AP exam can earn college credit"
+        },
+        {
+          "icon": "🏫",
+          "item": "Dual Credit — confirm placement exam scores and Lone Star application are complete"
+        },
+        {
+          "icon": "🔬",
+          "item": "Advanced pathway or practicum course (e.g., Engineering Design & Problem Solving K)"
+        },
+        {
+          "icon": "📊",
+          "item": "GPA and class rank with counselor — understand weighting before adding courses"
+        },
+        {
+          "icon": "📋",
+          "item": "Graduation credit audit — confirm all 26 credits are on track"
+        },
+        {
+          "icon": "📅",
+          "item": "Senior year schedule planning before the April 30 change-request deadline"
+        }
+      ],
+      "familyQuestions": [
+        "Is the student enrolled in AP or Dual Credit only where prerequisites are met and performance is strong?",
+        "Has the family reviewed class rank and GPA weighting to understand how course choices affect standing?",
+        "Is the endorsement on track to be completed by the end of senior year?",
+        "Does the student understand the 74 semester average rule for K/AP removal?",
+        "Would a graduation audit with the counselor confirm the student is on track for all 26 credits?",
+        "Are there capstone, practicum, or final pathway courses that need to be registered for in 12th grade?",
+        "Has the student considered how workload balance across AP, DC, and extracurriculars will affect performance?",
+        "Is FAFSA/TAFSA completion planned for senior year — it is a graduation requirement?"
+      ],
+      "coreCreditsToWatch": [
+        "U.S. History",
+        "AP or Dual Credit selection",
+        "Advanced pathway course",
+        "Government (½ credit)",
+        "Algebra II if not yet completed"
+      ]
+    },
+    "12": {
+      "grade": "12th Grade",
+      "emoji": "🏆",
+      "color": "#922B21",
+      "stage": "Finish Cleanly and Graduate Strong",
+      "focus": "Senior year should close all credit gaps, complete endorsement requirements, and avoid last-minute surprises. This is not the year for experimentation — it's the year for clean execution. Verify everything with your counselor before November.",
+      "checklist": [
+        "Verify all 26 credits are on track — run a formal graduation audit with your counselor",
+        "Confirm endorsement requirements are completed or clearly on the schedule for completion this year",
+        "Complete FAFSA or TAFSA (graduation requirement) — a parent can opt out in writing; students 18+ can opt themselves out",
+        "Confirm Capstone, practicum, or final sequence course is registered and fits the schedule",
+        "No course changes after the 2nd week of each semester — plan carefully before the year starts",
+        "Correspondence learning grades must reach the counselor before the 16th week of the fall semester"
+      ],
+      "milestones": [
+        "Graduation audit completed with counselor by October",
+        "FAFSA/TAFSA completed (or written opt-out submitted)",
+        "Endorsement fully satisfied",
+        "Capstone or final pathway course in progress",
+        "No missing credits identified by early November",
+        "Commencement participation confirmed (22 credits minimum + all 5 EOC assessments passed)"
+      ],
+      "watchouts": [
+        "Missing even 0.5 credits can block the diploma — audit early, not in May",
+        "FAFSA/TAFSA is a graduation requirement — families must opt out proactively if they choose not to file",
+        "No course changes after the 2nd week of either semester",
+        "Correspondence learning must finish before the 16th week of fall — a WD counts against GPA",
+        "Early graduates must file Declaration of Intent with the counselor before the intended graduation semester",
+        "Students participating in commencement must have passed all 5 required EOC assessments"
+      ],
+      "whatToReview": [
+        {
+          "icon": "📋",
+          "item": "Graduation credit audit — verify all 26 credits with counselor"
+        },
+        {
+          "icon": "🏁",
+          "item": "Endorsement completion — confirm final courses are in place"
+        },
+        {
+          "icon": "📝",
+          "item": "FAFSA / TAFSA completion or written opt-out"
+        },
+        {
+          "icon": "🎓",
+          "item": "Capstone, practicum, or final sequence course (e.g., Practicum in Health Science, CS IV K)"
+        },
+        {
+          "icon": "📜",
+          "item": "5 EOC assessments: English I, English II, Algebra I, Biology, U.S. History — all must be passed"
+        },
+        {
+          "icon": "📅",
+          "item": "Early graduation: Declaration of Intent form due at least one semester before intended graduation date"
+        }
+      ],
+      "familyQuestions": [
+        "Has a formal graduation audit been completed with the counselor to confirm all 26 credits are on track?",
+        "Has FAFSA or TAFSA been completed, or has a written opt-out been submitted?",
+        "Is every endorsement requirement confirmed as completed or in the current schedule?",
+        "Are there correspondence or TxVSN courses in progress — will they finish before the 16th week deadline?",
+        "Does the student understand there are no course changes after the 2nd week of each semester?",
+        "Has the student confirmed they have passed all 5 required EOC assessments for commencement eligibility?",
+        "If early graduation is planned, has the Declaration of Intent form been filed with the counselor?",
+        "Are post-secondary plans (college applications, financial aid, dual credit transcripts) coordinated with counselor?"
+      ],
+      "coreCreditsToWatch": [
+        "Government (½ credit)",
+        "Economics (½ credit) or PFL (½ credit for Class 2030+)",
+        "Final pathway / capstone course",
+        "Health credit (if not yet completed)",
+        "All 5 EOC assessments passed"
+      ]
+    }
+  },
+  "counselors": {
+    "school": "Bridgeland High School",
+    "address": "10707 Mason Road, Cypress, TX 77433",
+    "phone": "832-349-7600",
+    "website": "https://bridgeland.cfisd.net",
+    "office": "Counseling Office — visit the main office or call to schedule an appointment",
+    "byLastName": [
+      {
+        "range": "A – D",
+        "name": "Contact the BHS Counseling Office",
+        "email": ""
+      },
+      {
+        "range": "E – K",
+        "name": "Contact the BHS Counseling Office",
+        "email": ""
+      },
+      {
+        "range": "L – R",
+        "name": "Contact the BHS Counseling Office",
+        "email": ""
+      },
+      {
+        "range": "S – Z",
+        "name": "Contact the BHS Counseling Office",
+        "email": ""
+      }
+    ],
+    "note": "Counselor assignments by last name are updated each year. Call 832-349-7600 or visit the BHS counseling office to reach your assigned counselor."
+  }
+}
