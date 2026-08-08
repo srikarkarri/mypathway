@@ -17,58 +17,146 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 @keyframes spin{to{transform:rotate(360deg)}}
 
 .section{display:none;animation:fadeIn .25s ease-out;}.section.active{display:block;}
-.card{background:white;border-radius:20px;box-shadow:0 1px 8px rgba(0,0,0,0.06);border:1px solid #E8EEF4;}
+.card{background:white;border-radius:16px;box-shadow:0 1px 8px rgba(0,0,0,0.06);border:1px solid #E8EEF4;}
 .card-hover:hover{box-shadow:0 8px 28px rgba(0,0,0,0.11);transform:translateY(-2px);cursor:pointer;transition:all .18s;}
 
+/* ── HEADER ── */
 .nav-btn{background:transparent;color:rgba(255,255,255,.78);border:1px solid transparent;border-radius:8px;padding:6px 13px;font-size:13px;font-weight:500;display:inline-flex;align-items:center;gap:5px;transition:all .15s;white-space:nowrap;}
 .nav-btn.active{background:rgba(232,80,10,.22);color:#FF8C5A;border-color:rgba(232,80,10,.45);font-weight:700;}
 .nav-btn:hover:not(.active){background:rgba(255,255,255,.1);color:white;}
 
-.btn-outline-white{background:rgba(255,255,255,.12);color:white;border:1px solid rgba(255,255,255,.3);border-radius:12px;padding:13px 22px;font-size:15px;font-weight:600;transition:all .15s;}
+/* Mobile bottom nav */
+#mobile-nav{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;background:#0A2240;border-top:1px solid rgba(255,255,255,.12);padding:6px 0 env(safe-area-inset-bottom,6px);}
+.mob-nav-btn{flex:1;background:none;border:none;color:rgba(255,255,255,.55);display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 4px;font-size:10px;font-weight:600;transition:color .15s;cursor:pointer;}
+.mob-nav-btn .mob-icon{font-size:20px;line-height:1;}
+.mob-nav-btn.active{color:#FF8C5A;}
+
+/* ── BUTTONS ── */
+.btn-outline-white{background:rgba(255,255,255,.12);color:white;border:1px solid rgba(255,255,255,.3);border-radius:12px;padding:12px 20px;font-size:14px;font-weight:600;transition:all .15s;}
 .btn-outline-white:hover{background:rgba(255,255,255,.22);}
 .btn-navy{background:#0A2240;color:white;border:none;border-radius:10px;padding:10px 20px;font-size:14px;font-weight:600;transition:background .15s;}
 .btn-navy:hover{background:#0d2d52;}
 .btn-ghost{background:none;border:1px solid #CBD5E1;border-radius:8px;padding:8px 16px;font-size:13px;font-weight:500;color:#64748B;transition:all .12s;}
 .btn-ghost:hover{border-color:#0A2240;color:#0A2240;}
 
-.interest-btn{background:white;border:2px solid #E8EEF4;border-radius:14px;padding:16px 14px;cursor:pointer;text-align:left;transition:all .15s;}
+/* ── INTEREST TILES ── */
+.interest-btn{background:white;border:2px solid #E8EEF4;border-radius:14px;padding:14px 12px;cursor:pointer;text-align:left;transition:all .15s;}
 .interest-btn.selected{background:#0A2240;border-color:#E8500A;box-shadow:0 4px 15px rgba(10,34,64,.22);}
 
+/* ── CHAT ── */
 .suggested-q{background:#F8FAFC;border:1px solid #E8EEF4;border-radius:10px;padding:10px 14px;text-align:left;font-size:13px;color:#475569;line-height:1.4;cursor:pointer;transition:all .12s;width:100%;}
 .suggested-q:hover{background:#FFF4EE;border-color:#E8500A;color:#0A2240;}
-
-.endorsement-btn{width:100%;background:none;border:none;cursor:pointer;padding:26px 30px;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;}
-.endorsement-btn:hover{background:#FAFBFF;}
-
-.grade-tab{border-radius:10px;padding:9px 18px;font-size:14px;font-weight:700;cursor:pointer;transition:all .15s;border:2px solid;}
-.milestone-item{display:flex;gap:12px;align-items:flex-start;padding:13px 16px;border-radius:12px;border:1px solid #E8EEF4;background:white;margin-bottom:10px;}
-.milestone-check{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;font-size:12px;font-weight:800;animation:checkPop .3s ease-out;}
-.watchout-badge{display:inline-flex;align-items:center;gap:5px;background:#FFF4EE;border:1px solid #FBBF7A;color:#C94208;border-radius:8px;padding:7px 12px;font-size:13px;font-weight:600;margin-bottom:8px;width:100%;}
-.review-item{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:10px;background:#F0F6FF;border:1px solid #D0E4FF;margin-bottom:8px;}
-.family-q{padding:14px 16px;border-radius:12px;border:1px solid #E8EEF4;background:#FAFBFF;font-size:13px;line-height:1.65;color:#0A2240;border-left:4px solid #E8500A;margin-bottom:10px;}
-.timeline-circle{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;flex-shrink:0;color:white;}
-
 .chat-dot{width:8px;height:8px;border-radius:50%;background:#94A3B8;animation:bounce 1.2s infinite;}
 #chat-messages::-webkit-scrollbar{width:4px;}
 #chat-messages::-webkit-scrollbar-track{background:#F8FAFC;}
 #chat-messages::-webkit-scrollbar-thumb{background:#CBD5E1;border-radius:2px;}
 
-.grid-stats    {display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;}
-.grid-cards    {display:grid;grid-template-columns:repeat(auto-fit,minmax(275px,1fr));gap:20px;}
-.grid-2        {display:grid;grid-template-columns:1fr 1fr;gap:20px;}
-.grid-interests{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;}
-.grid-reminders{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:16px;}
+/* ── ENDORSEMENTS ── */
+.endorsement-btn{width:100%;background:none;border:none;cursor:pointer;padding:20px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;}
+.endorsement-btn:hover{background:#FAFBFF;}
 
-/* loading overlay */
+/* ── PLANNER ── */
+.grade-tab{border-radius:10px;padding:8px 14px;font-size:13px;font-weight:700;cursor:pointer;transition:all .15s;border:2px solid;}
+.milestone-item{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:12px;border:1px solid #E8EEF4;background:white;margin-bottom:10px;}
+.milestone-check{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;font-size:12px;font-weight:800;animation:checkPop .3s ease-out;}
+.watchout-badge{display:inline-flex;align-items:center;gap:5px;background:#FFF4EE;border:1px solid #FBBF7A;color:#C94208;border-radius:8px;padding:7px 12px;font-size:13px;font-weight:600;margin-bottom:8px;width:100%;}
+.review-item{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:10px;background:#F0F6FF;border:1px solid #D0E4FF;margin-bottom:8px;}
+.family-q{padding:13px 15px;border-radius:12px;border:1px solid #E8EEF4;background:#FAFBFF;font-size:13px;line-height:1.65;color:#0A2240;border-left:4px solid #E8500A;margin-bottom:10px;}
+.timeline-circle{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;flex-shrink:0;color:white;}
+
+/* ── GRIDS ── */
+.grid-stats    {display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;}
+.grid-cards    {display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;}
+.grid-2        {display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.grid-interests{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;}
+.grid-reminders{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+
+/* loading */
 #loading-screen{position:fixed;inset:0;background:#0A2240;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;transition:opacity .4s;}
 #loading-screen.hidden{opacity:0;pointer-events:none;}
 .spinner{width:44px;height:44px;border:4px solid rgba(255,255,255,.2);border-top-color:#E8500A;border-radius:50%;animation:spin .8s linear infinite;margin-bottom:20px;}
 
-@media(max-width:780px){
-  .grid-2{grid-template-columns:1fr;}
-  .planner-top-row{grid-template-columns:1fr !important;}
+/* ════════════════════════════════════════
+   TABLET  ≤ 900px
+════════════════════════════════════════ */
+@media(max-width:900px){
   .chat-layout{grid-template-columns:1fr !important;}
-  header nav{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  #chat-sidebar{display:none;}
+}
+
+/* ════════════════════════════════════════
+   MOBILE  ≤ 640px
+════════════════════════════════════════ */
+@media(max-width:640px){
+  /* Header — hide desktop nav & visit badge, show brand only */
+  #desktop-nav{display:none !important;}
+  #visit-badge{display:none !important;}
+  #header-brand .bhs-subtitle{display:none;}
+  header .header-inner{height:52px;padding:0 16px;}
+
+  /* Show mobile bottom nav */
+  #mobile-nav{display:flex;}
+
+  /* Main padding — allow space for bottom nav */
+  main{padding:16px 14px 90px !important;}
+
+  /* Hero */
+  .hero-section{padding:28px 20px !important;border-radius:16px !important;}
+  .hero-section h1{font-size:26px !important;line-height:1.2 !important;}
+  .hero-section p{font-size:14px !important;margin-bottom:20px !important;}
+  .hero-section .hero-btns{flex-direction:column !important;gap:8px !important;}
+  .hero-section .hero-btns button{width:100%;padding:12px 16px !important;font-size:14px !important;}
+  #hero-badge{font-size:11px !important;padding:5px 12px !important;}
+
+  /* Grids → single column */
+  .grid-2{grid-template-columns:1fr !important;}
+  .grid-stats{grid-template-columns:repeat(2,1fr) !important;gap:10px !important;}
+  .grid-cards{grid-template-columns:1fr !important;}
+  .grid-interests{grid-template-columns:repeat(2,1fr) !important;gap:8px !important;}
+  .grid-reminders{grid-template-columns:1fr !important;}
+  .planner-top-row{grid-template-columns:1fr !important;}
+
+  /* Section headings */
+  .section-heading{font-size:22px !important;}
+  .section-sub{font-size:14px !important;}
+
+  /* Cards */
+  .card{border-radius:14px;}
+  .card-pad{padding:18px !important;}
+
+  /* Endorsements */
+  .endorsement-btn{padding:16px !important;}
+  .endorse-icon{width:46px !important;height:46px !important;font-size:22px !important;border-radius:12px !important;}
+  .endorse-name{font-size:16px !important;}
+
+  /* Planner */
+  .grade-tab{padding:7px 10px !important;font-size:12px !important;}
+  #grade-selector{gap:6px !important;}
+  .planner-hero{padding:20px 16px !important;border-radius:14px !important;}
+  .planner-hero-title{font-size:20px !important;}
+  .planner-hero-stage{font-size:13px !important;}
+  .planner-hero-focus{font-size:12px !important;}
+
+  /* Requirements table */
+  .req-table th:last-child,.req-table td:last-child{display:none;}
+
+  /* Credit banner */
+  .credit-banner{padding:20px 16px !important;border-radius:14px !important;}
+  .credit-num{font-size:36px !important;}
+  .credit-sep{font-size:20px !important;margin:0 8px !important;}
+  .credit-note{border-left:none !important;border-top:1px solid rgba(255,255,255,.2) !important;padding-left:0 !important;padding-top:16px !important;margin-top:8px !important;width:100% !important;}
+
+  /* Chat */
+  .chat-window{height:70vh !important;border-radius:14px !important;}
+  #chat-input{font-size:16px !important;}  /* prevent iOS zoom */
+  .chat-header{padding:12px 16px !important;}
+
+  /* Stats number */
+  .stat-num{font-size:28px !important;}
+  .stat-card{padding:16px 14px !important;}
+
+  /* Footer */
+  footer{padding:20px 16px !important;}
 }
 </style>
 </head>
@@ -84,43 +172,53 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 <!-- ══════════════════════════════════ HEADER -->
 <header style="background:linear-gradient(135deg,#0A2240 0%,#0D2D52 60%,#112E52 100%);color:white;position:sticky;top:0;z-index:100;box-shadow:0 2px 20px rgba(0,0,0,0.28);">
   <div style="max-width:1220px;margin:0 auto;padding:0 24px;">
-    <div style="display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px;">
+    <div class="header-inner" style="display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px;">
       <!-- Brand -->
-      <div style="display:flex;align-items:center;gap:12px;flex-shrink:0;">
-        <div style="width:42px;height:42px;background:#E8500A;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;color:white;letter-spacing:-0.5px;">BHS</div>
+      <div id="header-brand" style="display:flex;align-items:center;gap:10px;flex-shrink:0;">
+        <div style="width:40px;height:40px;background:#E8500A;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:900;color:white;letter-spacing:-0.5px;flex-shrink:0;">BHS</div>
         <div>
-          <div style="font-weight:800;font-size:15px;">Bridgeland High School</div>
-          <div id="header-year-label" style="font-size:11px;color:rgba(255,255,255,0.6);font-weight:500;">Course Pathways Navigator · CFISD</div>
+          <div style="font-weight:800;font-size:14px;line-height:1.2;">Bridgeland High School</div>
+          <div id="header-year-label" class="bhs-subtitle" style="font-size:11px;color:rgba(255,255,255,0.6);font-weight:500;">Course Pathways Navigator · CFISD</div>
         </div>
       </div>
-      <!-- Visit badge -->
+      <!-- Visit badge (desktop only) -->
       <div id="visit-badge" style="font-size:12px;font-weight:600;color:rgba(255,255,255,0.65);background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:100px;padding:4px 12px;white-space:nowrap;flex-shrink:0;">👁 …</div>
-      <!-- Nav -->
-      <nav style="display:flex;gap:3px;overflow-x:auto;flex-shrink:0;">
+      <!-- Desktop Nav -->
+      <nav id="desktop-nav" style="display:flex;gap:3px;overflow-x:auto;flex-shrink:0;">
         <button class="nav-btn active" onclick="showTab('home')"         id="nav-home">🏠 Home</button>
         <button class="nav-btn"        onclick="showTab('pathways')"     id="nav-pathways">🧭 Endorsements</button>
         <button class="nav-btn"        onclick="showTab('interests')"    id="nav-interests">⭐ Find My Path</button>
         <button class="nav-btn"        onclick="showTab('planner')"      id="nav-planner">📅 Year Planner</button>
         <button class="nav-btn"        onclick="showTab('requirements')" id="nav-requirements">📜 Requirements</button>
-        <button class="nav-btn"        onclick="showTab('chat')"         id="nav-chat">💬 AI Assistant</button>
+        <button class="nav-btn"        onclick="showTab('chat')"         id="nav-chat">💬 AI</button>
       </nav>
     </div>
   </div>
 </header>
+
+<!-- ══════════════════════════════════ MOBILE BOTTOM NAV -->
+<nav id="mobile-nav">
+  <button class="mob-nav-btn active" onclick="showTab('home')"         id="mob-home">        <span class="mob-icon">🏠</span>Home</button>
+  <button class="mob-nav-btn"        onclick="showTab('pathways')"     id="mob-pathways">    <span class="mob-icon">🧭</span>Paths</button>
+  <button class="mob-nav-btn"        onclick="showTab('interests')"    id="mob-interests">   <span class="mob-icon">⭐</span>Find Me</button>
+  <button class="mob-nav-btn"        onclick="showTab('planner')"      id="mob-planner">     <span class="mob-icon">📅</span>Planner</button>
+  <button class="mob-nav-btn"        onclick="showTab('requirements')" id="mob-requirements"><span class="mob-icon">📜</span>Reqs</button>
+  <button class="mob-nav-btn"        onclick="showTab('chat')"         id="mob-chat">        <span class="mob-icon">💬</span>AI Chat</button>
+</nav>
 
 <main style="max-width:1220px;margin:0 auto;padding:32px 24px 80px;">
 
 <!-- ══════════════════════════════════ HOME -->
 <div id="tab-home" class="section active">
   <!-- Hero -->
-  <div style="background:linear-gradient(135deg,#0A2240 0%,#0D2D52 55%,#112E52 100%);border-radius:24px;padding:54px 48px;color:white;margin-bottom:32px;position:relative;overflow:hidden;">
+  <div class="hero-section" style="background:linear-gradient(135deg,#0A2240 0%,#0D2D52 55%,#112E52 100%);border-radius:24px;padding:54px 48px;color:white;margin-bottom:28px;position:relative;overflow:hidden;">
     <div style="position:absolute;top:-70px;right:-70px;width:320px;height:320px;background:rgba(255,255,255,.05);border-radius:50%;"></div>
     <div style="position:absolute;bottom:-50px;left:-50px;width:230px;height:230px;background:rgba(255,255,255,.03);border-radius:50%;"></div>
     <div style="position:relative;z-index:1;max-width:650px;">
-      <div id="hero-badge" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:100px;padding:6px 16px;margin-bottom:20px;font-size:13px;font-weight:600;">✦ CFISD Course Description Handbook</div>
-      <h1 style="font-size:42px;font-weight:800;line-height:1.15;margin-bottom:16px;letter-spacing:-.02em;">Your Roadmap to a<br><span style="color:#FF8C5A;">Successful High School</span></h1>
-      <p style="font-size:16px;color:rgba(255,255,255,.85);line-height:1.65;margin-bottom:28px;max-width:520px;">A student-built, AI-powered app to explore course pathways, discover your best-fit endorsement, and get instant answers to all your high school planning questions.</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      <div id="hero-badge" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:100px;padding:6px 16px;margin-bottom:18px;font-size:13px;font-weight:600;">✦ CFISD Course Description Handbook</div>
+      <h1 style="font-size:42px;font-weight:800;line-height:1.15;margin-bottom:14px;letter-spacing:-.02em;">Your Roadmap to a<br><span style="color:#FF8C5A;">Successful High School</span></h1>
+      <p style="font-size:16px;color:rgba(255,255,255,.85);line-height:1.65;margin-bottom:24px;max-width:520px;">A student-built, AI-powered app to explore course pathways, discover your best-fit endorsement, and get instant answers to all your high school planning questions.</p>
+      <div class="hero-btns" style="display:flex;gap:12px;flex-wrap:wrap;">
         <button class="btn-outline-white" onclick="showTab('interests')">🎯 Find My Pathway</button>
         <button class="btn-outline-white" onclick="showTab('pathways')">📋 View Endorsements</button>
         <button class="btn-outline-white" onclick="showTab('chat')">💬 Ask the Handbook AI</button>
@@ -140,21 +238,21 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 
 <!-- ══════════════════════════════════ ENDORSEMENTS -->
 <div id="tab-pathways" class="section">
-  <div style="margin-bottom:32px;">
-    <h2 style="font-size:32px;font-weight:800;color:#0A2240;margin-bottom:8px;">The 5 Endorsement Pathways</h2>
-    <p style="font-size:16px;color:#64748B;">Every CFISD student graduates with one of these endorsements. Click any to expand routes, required courses, and career examples.</p>
+  <div style="margin-bottom:24px;">
+    <h2 class="section-heading" style="font-size:28px;font-weight:800;color:#0A2240;margin-bottom:8px;">The 5 Endorsement Pathways</h2>
+    <p class="section-sub" style="font-size:15px;color:#64748B;">Every CFISD student graduates with one of these endorsements. Click any to expand routes, required courses, and career examples.</p>
   </div>
   <div id="endorsements-list" style="display:grid;gap:20px;"></div>
 </div>
 
 <!-- ══════════════════════════════════ INTERESTS -->
 <div id="tab-interests" class="section">
-  <div style="margin-bottom:32px;">
-    <h2 style="font-size:32px;font-weight:800;color:#0A2240;margin-bottom:8px;">Find My Pathway</h2>
-    <p style="font-size:16px;color:#64748B;">Select topics that genuinely excite you — we'll map them to the best-fit endorsements.</p>
+  <div style="margin-bottom:24px;">
+    <h2 class="section-heading" style="font-size:28px;font-weight:800;color:#0A2240;margin-bottom:8px;">Find My Pathway</h2>
+    <p class="section-sub" style="font-size:15px;color:#64748B;">Select topics that genuinely excite you — we'll map them to the best-fit endorsements.</p>
   </div>
-  <div class="card" style="padding:32px;margin-bottom:28px;">
-    <h3 style="font-size:18px;font-weight:700;color:#0A2240;margin-bottom:20px;">What excites you most? <span style="font-size:13px;font-weight:500;color:#94A3B8;">(select all that apply)</span></h3>
+  <div class="card card-pad" style="padding:24px;margin-bottom:20px;">
+    <h3 style="font-size:17px;font-weight:700;color:#0A2240;margin-bottom:16px;">What excites you most? <span style="font-size:13px;font-weight:500;color:#94A3B8;">(select all that apply)</span></h3>
     <div class="grid-interests" id="interests-grid"></div>
     <button class="btn-ghost" onclick="clearInterests()" style="margin-top:16px;">Clear all selections</button>
   </div>
@@ -163,9 +261,9 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 
 <!-- ══════════════════════════════════ YEAR PLANNER -->
 <div id="tab-planner" class="section">
-  <div style="margin-bottom:28px;">
-    <h2 style="font-size:32px;font-weight:800;color:#0A2240;margin-bottom:8px;">Grade-by-Grade Planner</h2>
-    <p style="font-size:16px;color:#64748B;">Select your grade for a complete planning view — checklist, milestones, watchouts, what to review, and family conversation prompts.</p>
+  <div style="margin-bottom:20px;">
+    <h2 class="section-heading" style="font-size:28px;font-weight:800;color:#0A2240;margin-bottom:8px;">Grade-by-Grade Planner</h2>
+    <p class="section-sub" style="font-size:15px;color:#64748B;">Select your grade for a complete planning view — checklist, milestones, watchouts, what to review, and family conversation prompts.</p>
   </div>
   <div id="grade-selector" style="display:flex;gap:10px;margin-bottom:28px;flex-wrap:wrap;"></div>
   <div id="planner-content"></div>
@@ -173,31 +271,31 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 
 <!-- ══════════════════════════════════ REQUIREMENTS -->
 <div id="tab-requirements" class="section">
-  <div style="margin-bottom:32px;">
-    <h2 style="font-size:32px;font-weight:800;color:#0A2240;margin-bottom:8px;">Graduation Requirements</h2>
-    <p id="req-subtitle" style="font-size:16px;color:#64748B;"></p>
+  <div style="margin-bottom:24px;">
+    <h2 class="section-heading" style="font-size:28px;font-weight:800;color:#0A2240;margin-bottom:8px;">Graduation Requirements</h2>
+    <p id="req-subtitle" class="section-sub" style="font-size:15px;color:#64748B;"></p>
   </div>
   <!-- Credit banner -->
-  <div style="background:linear-gradient(135deg,#0A2240,#143555);border-radius:20px;padding:36px;color:white;margin-bottom:28px;">
-    <div style="display:flex;align-items:center;gap:40px;flex-wrap:wrap;">
-      <div style="text-align:center;"><div style="font-size:48px;font-weight:800;color:#FF8C5A;">22</div><div style="font-size:14px;color:rgba(255,255,255,.8);">Foundation Credits</div></div>
-      <div style="font-size:28px;color:rgba(255,255,255,.35);">+</div>
-      <div style="text-align:center;"><div style="font-size:48px;font-weight:800;color:#FF8C5A;">4</div><div style="font-size:14px;color:rgba(255,255,255,.8);">Endorsement Credits</div></div>
-      <div style="font-size:28px;color:rgba(255,255,255,.35);">=</div>
-      <div style="text-align:center;"><div style="font-size:48px;font-weight:800;color:white;">26</div><div style="font-size:14px;color:rgba(255,255,255,.8);">Total to Graduate</div></div>
-      <div style="flex:1;min-width:200px;border-left:1px solid rgba(255,255,255,.2);padding-left:40px;">
-        <div style="font-size:14px;color:rgba(255,255,255,.8);line-height:1.75;">Endorsement extras:<br>+1 advanced math credit<br>+1 advanced science credit<br>+2 additional elective credits</div>
+  <div class="credit-banner" style="background:linear-gradient(135deg,#0A2240,#143555);border-radius:20px;padding:28px;color:white;margin-bottom:24px;">
+    <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap;justify-content:center;">
+      <div style="text-align:center;"><div class="credit-num" style="font-size:44px;font-weight:800;color:#FF8C5A;">22</div><div style="font-size:13px;color:rgba(255,255,255,.8);">Foundation</div></div>
+      <div class="credit-sep" style="font-size:24px;color:rgba(255,255,255,.35);">+</div>
+      <div style="text-align:center;"><div class="credit-num" style="font-size:44px;font-weight:800;color:#FF8C5A;">4</div><div style="font-size:13px;color:rgba(255,255,255,.8);">Endorsement</div></div>
+      <div class="credit-sep" style="font-size:24px;color:rgba(255,255,255,.35);">=</div>
+      <div style="text-align:center;"><div class="credit-num" style="font-size:44px;font-weight:800;color:white;">26</div><div style="font-size:13px;color:rgba(255,255,255,.8);">Total to Graduate</div></div>
+      <div class="credit-note" style="flex:1;min-width:180px;border-left:1px solid rgba(255,255,255,.2);padding-left:24px;">
+        <div style="font-size:13px;color:rgba(255,255,255,.8);line-height:1.75;">+1 advanced math<br>+1 advanced science<br>+2 elective credits</div>
       </div>
     </div>
   </div>
   <!-- Req table -->
-  <div class="card" style="overflow:hidden;margin-bottom:28px;">
-    <div style="padding:20px 28px;border-bottom:1px solid #E8EEF4;"><h3 style="font-size:18px;font-weight:800;color:#0A2240;">Required Courses by Subject Area</h3></div>
-    <div style="overflow-x:auto;"><table style="width:100%;">
+  <div class="card" style="overflow:hidden;margin-bottom:20px;">
+    <div style="padding:16px 20px;border-bottom:1px solid #E8EEF4;"><h3 style="font-size:16px;font-weight:800;color:#0A2240;">Required Courses by Subject Area</h3></div>
+    <div style="overflow-x:auto;"><table class="req-table" style="width:100%;">
       <thead><tr style="background:#F8FAFC;">
-        <th style="padding:13px 28px;text-align:left;font-size:12px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.08em;">Subject</th>
-        <th style="padding:13px 20px;text-align:center;font-size:12px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.08em;">Credits</th>
-        <th style="padding:13px 28px;text-align:left;font-size:12px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.08em;">Notes</th>
+        <th style="padding:11px 20px;text-align:left;font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.08em;">Subject</th>
+        <th style="padding:11px 16px;text-align:center;font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.08em;">Credits</th>
+        <th style="padding:11px 20px;text-align:left;font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.08em;">Notes</th>
       </tr></thead>
       <tbody id="req-table-body"></tbody>
     </table></div>
@@ -228,13 +326,13 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 
 <!-- ══════════════════════════════════ CHAT -->
 <div id="tab-chat" class="section">
-  <div style="margin-bottom:24px;">
-    <h2 style="font-size:32px;font-weight:800;color:#0A2240;margin-bottom:8px;">Handbook AI Assistant</h2>
-    <p id="chat-subtitle" style="font-size:16px;color:#64748B;"></p>
+  <div style="margin-bottom:20px;">
+    <h2 class="section-heading" style="font-size:28px;font-weight:800;color:#0A2240;margin-bottom:8px;">Handbook AI Assistant</h2>
+    <p id="chat-subtitle" class="section-sub" style="font-size:15px;color:#64748B;"></p>
   </div>
-  <div class="chat-layout" style="display:grid;grid-template-columns:1fr 310px;gap:24px;align-items:start;">
-    <div style="background:white;border-radius:20px;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.06);display:flex;flex-direction:column;height:620px;">
-      <div style="background:linear-gradient(135deg,#0A2240,#143555);padding:16px 24px;display:flex;align-items:center;gap:12px;">
+  <div class="chat-layout" style="display:grid;grid-template-columns:1fr 300px;gap:20px;align-items:start;">
+    <div class="chat-window" style="background:white;border-radius:20px;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.06);display:flex;flex-direction:column;height:620px;">
+      <div class="chat-header" style="background:linear-gradient(135deg,#0A2240,#143555);padding:14px 20px;display:flex;align-items:center;gap:12px;">
         <div style="width:40px;height:40px;background:#E8500A;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;">🤖</div>
         <div><div style="color:white;font-weight:700;font-size:15px;">Handbook AI</div><div id="chat-grounded-label" style="color:rgba(255,255,255,.6);font-size:12px;">Grounded in CFISD Handbook</div></div>
         <div style="margin-left:auto;width:10px;height:10px;background:#22C55E;border-radius:50%;box-shadow:0 0 0 3px rgba(34,197,94,.3);"></div>
@@ -255,9 +353,9 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
         </div>
       </div>
     </div>
-    <div>
-      <div class="card" style="padding:24px;margin-bottom:16px;">
-        <div style="font-size:14px;font-weight:700;color:#0A2240;margin-bottom:16px;">💡 Try These Questions</div>
+    <div id="chat-sidebar">
+      <div class="card" style="padding:20px;margin-bottom:14px;">
+        <div style="font-size:14px;font-weight:700;color:#0A2240;margin-bottom:14px;">💡 Try These Questions</div>
         <div id="suggested-questions" style="display:grid;gap:8px;"></div>
       </div>
       <div style="background:#FFF4EE;border:1px solid #FBBF7A;border-radius:16px;padding:20px;margin-bottom:16px;">
@@ -297,7 +395,12 @@ async function boot(){
       `<div style="color:white;text-align:center;padding:40px;">
         <div style="font-size:40px;margin-bottom:16px;">⚠️</div>
         <div style="font-size:20px;font-weight:800;margin-bottom:10px;">Handbook data not found</div>
-        <div style="font-size:14px;color:rgba(255,255,255,.65);max-width:360px;line-height:1.6;">Make sure <code style="background:rgba(255,255,255,.1);padding:2px 8px;border-radius:4px;">assets/handbook.json</code> is present in the same folder as this HTML file.</div>
+        <div style="font-size:14px;color:rgba(255,255,255,.65);max-width:360px;line-height:1.6;">
+          Make sure <code style="background:rgba(255,255,255,.1);padding:2px 8px;border-radius:4px;">assets/handbook.json</code>
+          is in the same folder as this HTML file, and open via a web server — not file://.<br><br>
+          For local testing: run <code style="background:rgba(255,255,255,.1);padding:2px 8px;border-radius:4px;">python -m http.server 8080</code>
+          in this folder, then open <code style="background:rgba(255,255,255,.1);padding:2px 8px;border-radius:4px;">http://localhost:8080</code>
+        </div>
       </div>`;
     return;
   }
@@ -351,8 +454,12 @@ function applyYearLabels(){
 function showTab(id){
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.mob-nav-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+id).classList.add('active');
-  document.getElementById('nav-'+id).classList.add('active');
+  const desktopBtn=document.getElementById('nav-'+id);
+  if(desktopBtn) desktopBtn.classList.add('active');
+  const mobBtn=document.getElementById('mob-'+id);
+  if(mobBtn) mobBtn.classList.add('active');
   window.scrollTo(0,0);
 }
 
@@ -360,16 +467,16 @@ function showTab(id){
 function renderHomeStatics(){
   // Stats strip
   const statsHTML = HB.stats.map(s=>`
-    <div class="card" style="padding:24px 20px;border-top:4px solid ${s.color};">
-      <div style="font-size:36px;font-weight:800;color:${s.color};line-height:1;">${s.num}</div>
-      <div style="font-size:14px;font-weight:700;color:#0A2240;margin-top:6px;">${s.label}</div>
-      <div style="font-size:12px;color:#64748B;margin-top:2px;">${s.sub}</div>
+    <div class="card stat-card" style="padding:20px 16px;border-top:4px solid ${s.color};">
+      <div class="stat-num" style="font-size:32px;font-weight:800;color:${s.color};line-height:1;">${s.num}</div>
+      <div style="font-size:13px;font-weight:700;color:#0A2240;margin-top:6px;">${s.label}</div>
+      <div style="font-size:11px;color:#64748B;margin-top:2px;">${s.sub}</div>
     </div>`).join('');
   const visitCard = `
-    <div class="card" style="padding:24px 20px;border-top:4px solid #6A1B9A;">
-      <div id="visit-stat-num" style="font-size:36px;font-weight:800;color:#6A1B9A;line-height:1;">…</div>
-      <div style="font-size:14px;font-weight:700;color:#0A2240;margin-top:6px;">Total Visits</div>
-      <div style="font-size:12px;color:#64748B;margin-top:2px;">Since launch</div>
+    <div class="card stat-card" style="padding:20px 16px;border-top:4px solid #6A1B9A;">
+      <div id="visit-stat-num" class="stat-num" style="font-size:32px;font-weight:800;color:#6A1B9A;line-height:1;">…</div>
+      <div style="font-size:13px;font-weight:700;color:#0A2240;margin-top:6px;">Total Visits</div>
+      <div style="font-size:11px;color:#64748B;margin-top:2px;">Since launch</div>
     </div>`;
   document.getElementById('stats-strip').innerHTML = statsHTML + visitCard;
 
@@ -403,15 +510,15 @@ function renderEndorsements(){
     const isOpen=expandedEndorsement===e.id;
     return `<div style="background:white;border-radius:20px;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.06);border:1px solid #E8EEF4;">
       <button class="endorsement-btn" onclick="expandEndorsement('${e.id}')">
-        <div style="display:flex;align-items:center;gap:20px;">
-          <div style="width:58px;height:58px;background:${e.lightColor};border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0;">${e.emoji}</div>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div class="endorse-icon" style="width:52px;height:52px;background:${e.lightColor};border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;">${e.emoji}</div>
           <div>
-            <div style="font-size:19px;font-weight:800;color:#0A2240;">${e.name}</div>
-            <div style="font-size:13px;color:#64748B;margin-top:2px;">${e.subtitle}</div>
-            <div style="font-size:13px;color:#475569;margin-top:5px;max-width:500px;">${e.bestFor}</div>
+            <div class="endorse-name" style="font-size:17px;font-weight:800;color:#0A2240;">${e.name}</div>
+            <div style="font-size:12px;color:#64748B;margin-top:2px;">${e.subtitle}</div>
+            <div style="font-size:13px;color:#475569;margin-top:4px;max-width:500px;line-height:1.4;">${e.bestFor}</div>
           </div>
         </div>
-        <span style="font-size:20px;color:${e.color};flex-shrink:0;transition:transform .2s;${isOpen?'transform:rotate(90deg)':''}">▸</span>
+        <span style="font-size:18px;color:${e.color};flex-shrink:0;transition:transform .2s;${isOpen?'transform:rotate(90deg)':''}">▸</span>
       </button>
       ${isOpen?`<div style="padding:0 30px 30px;border-top:2px solid ${e.lightColor};">
         ${e.requiredCore&&e.requiredCore.length?`<div style="margin:22px 0 18px;">
@@ -500,13 +607,13 @@ function shade(hex,pct){
 function renderPlannerContent(){
   const p=HB.planner[selectedGrade];
   document.getElementById('planner-content').innerHTML=`
-    <div style="background:linear-gradient(135deg,${p.color},${shade(p.color,25)});border-radius:20px;padding:28px 32px;color:white;margin-bottom:22px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;">
-      <div>
-        <div style="font-size:26px;font-weight:800;margin-bottom:4px;">${p.emoji} ${p.grade}</div>
-        <div style="font-size:16px;font-weight:700;color:rgba(255,255,255,.92);">${p.stage}</div>
-        <div style="font-size:13px;color:rgba(255,255,255,.75);margin-top:6px;max-width:540px;line-height:1.6;">${p.focus}</div>
+    <div class="planner-hero" style="background:linear-gradient(135deg,${p.color},${shade(p.color,25)});border-radius:18px;padding:22px 24px;color:white;margin-bottom:18px;display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:14px;">
+      <div style="flex:1;min-width:200px;">
+        <div class="planner-hero-title" style="font-size:22px;font-weight:800;margin-bottom:4px;">${p.emoji} ${p.grade}</div>
+        <div class="planner-hero-stage" style="font-size:15px;font-weight:700;color:rgba(255,255,255,.92);">${p.stage}</div>
+        <div class="planner-hero-focus" style="font-size:13px;color:rgba(255,255,255,.75);margin-top:6px;line-height:1.55;">${p.focus}</div>
       </div>
-      <button onclick="document.getElementById('chat-input').value='What should I focus on in ${p.grade}?';showTab('chat')" style="background:rgba(255,255,255,.15);color:white;border:1px solid rgba(255,255,255,.35);border-radius:10px;padding:10px 18px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0;">Ask AI about ${p.grade} →</button>
+      <button onclick="document.getElementById('chat-input').value='What should I focus on in ${p.grade}?';showTab('chat')" style="background:rgba(255,255,255,.15);color:white;border:1px solid rgba(255,255,255,.35);border-radius:10px;padding:9px 14px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0;">Ask AI →</button>
     </div>
 
     <div class="planner-top-row" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px;">

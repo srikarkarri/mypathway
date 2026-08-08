@@ -1468,6 +1468,283 @@
       ],
       "answer": "Your Bridgeland High School counselor is your best resource for course selection, graduation audits, dual credit enrollment, endorsement changes, and personal circumstances. See the counselor contact information below. For schedule changes, contact the counselor's office before August 1 if you attended summer school or completed a correspondence course.",
       "source": "General Guidance"
+    },
+    {
+      "topic": "uil",
+      "keywords": [
+        "uil eligibility",
+        "extracurricular eligibility",
+        "pass fail uil",
+        "fail class and play sports",
+        "eligibility after failing",
+        "sports eligibility grade",
+        "activity eligibility",
+        "6 week eligibility",
+        "grade to play sports"
+      ],
+      "answer": "UIL (University Interscholastic League) and school-sponsored activity eligibility is based on your actual numerical grades — NOT your pass/fail designation. If you take a course pass/fail, the real numerical grade still determines whether you can participate in athletics, band, drill team, clubs, and other extracurriculars. You must be passing all courses (70 or above) to remain eligible. Eligibility is checked at each grading period.",
+      "source": "Advanced Courses on a Pass/Fail Basis (p. 19)"
+    },
+    {
+      "topic": "exam_exempt",
+      "keywords": [
+        "exam exemption",
+        "skip semester exam",
+        "exempt from final",
+        "how to get out of exam",
+        "semester exam exemption",
+        "exempt final exam",
+        "no final exam",
+        "attendance exam exempt"
+      ],
+      "answer": "Students may be exempt from semester final exams based on CFISD's exemption policy, which typically considers attendance and grade averages. Students taking a course on a pass/fail basis must still take all assigned work and the TEKS/benchmark and final exams unless they qualify for an exemption under the standard policy. Check with your teacher or counselor for the current exemption criteria each semester.",
+      "source": "Advanced Courses on a Pass/Fail Basis (p. 19)"
+    },
+    {
+      "topic": "passing",
+      "keywords": [
+        "passing grade",
+        "minimum grade to pass",
+        "70 to pass",
+        "what grade do i need to pass",
+        "fail a class",
+        "below 70",
+        "what is a failing grade",
+        "numerical grade scale"
+      ],
+      "answer": "The minimum passing grade in CFISD is 70. Any grade below 70 is considered failing and earns 0 grade points regardless of course level (K-level, on-level, or AP). A failing semester grade means no credit is earned for that course. You must earn a 70 or above to receive credit and remain in good standing for grade classification.",
+      "source": "Class Ranking & Grading Scale (p. 20–22)"
+    },
+    {
+      "topic": "nhs",
+      "keywords": [
+        "national honor society",
+        "nhs",
+        "honor society eligibility",
+        "how to join nhs",
+        "nhs gpa",
+        "nhs requirements"
+      ],
+      "answer": "National Honor Society (NHS) membership is determined by academic eligibility based on your actual numerical grades — not your pass/fail designation. If you take a pass/fail course, the numerical grade earned in that course still counts toward NHS eligibility. Specific GPA thresholds and selection criteria for NHS are managed at the campus level — contact your Bridgeland counselor or NHS sponsor for the current requirements.",
+      "source": "Advanced Courses on a Pass/Fail Basis (p. 19)"
+    },
+    {
+      "topic": "meningitis",
+      "keywords": [
+        "bacterial meningitis",
+        "meningitis shot",
+        "meningitis vaccine",
+        "dual credit vaccine",
+        "immunization dual credit",
+        "meningococcal"
+      ],
+      "answer": "Students enrolling in dual credit courses during the summer must satisfy bacterial meningitis vaccination requirements if necessary. This is a Texas state requirement for students attending college campuses. Check with Lone Star College-CyFair and your school nurse about documentation needed before your first college class.",
+      "source": "Dual High School/College Credit (p. 18–19)"
+    },
+    {
+      "topic": "sped",
+      "keywords": [
+        "special education",
+        "sped",
+        "iep",
+        "ard committee",
+        "individualized education",
+        "modified curriculum",
+        "special ed graduation",
+        "ard endorsement",
+        "special education graduation requirements"
+      ],
+      "answer": "Students in special education programs may earn endorsements with or without curriculum modification, as determined by their ARD (Admission, Review, and Dismissal) committee. The ARD committee also determines whether a special education student is required to pass End-of-Course assessments to earn an endorsement. Students with IEPs should work with their ARD committee and counselor to plan a graduation pathway that meets both state requirements and their individual needs.",
+      "source": "Graduation Requirements / Special Education (p. 23+)"
+    },
+    {
+      "topic": "horizons_referral",
+      "keywords": [
+        "gt referral",
+        "gifted referral process",
+        "how to get tested gifted",
+        "horizons referral",
+        "open referral period",
+        "gifted testing",
+        "horizons application",
+        "get into horizons",
+        "when to apply horizons",
+        "october referral"
+      ],
+      "answer": "Parents who believe their child demonstrates gifted characteristics should contact the Director of Instruction at the campus during the Open Referral Period — October 1 through the last school day in November — to refer the student for testing. Referrals are submitted through the CFISD Parent Portal. After testing, the campus committee determines placement. For more details, visit the HORIZONS program website.",
+      "source": "HORIZONS Program (p. 6)"
+    },
+    {
+      "topic": "endorsement_change",
+      "keywords": [
+        "change endorsement",
+        "switch endorsement",
+        "can i change my endorsement",
+        "change my pathway",
+        "different endorsement",
+        "endorsement change process",
+        "how late can i change endorsement"
+      ],
+      "answer": "You can change your endorsement with counselor help, and the earlier the better. Sophomore year is the ideal time — you still have enough credits ahead of you to pivot the sequence. Junior year changes are possible but may require careful planning to avoid missing prerequisites or adding credits. Senior year changes are very difficult. Talk to your counselor as soon as you're considering a switch — they'll run a credit audit to see what's still achievable.",
+      "source": "Endorsements / Course Planning (p. 27–29)"
+    },
+    {
+      "topic": "night_school",
+      "keywords": [
+        "night school",
+        "credit recovery",
+        "failed class options",
+        "retake a class",
+        "make up failed credit",
+        "recover failed credit",
+        "night class cfisd"
+      ],
+      "answer": "CFISD offers night school for credit recovery — retaking a course you previously failed. This is separate from summer school. If a senior is enrolled in a correspondence course in fall and cannot complete it before the 16th week, they may enroll in the same course in night school for the spring semester instead. Night school courses earn on-level grade points only, and credits count toward graduation.",
+      "source": "Correspondence Learning (p. 19–20)"
+    },
+    {
+      "topic": "grad_audit",
+      "keywords": [
+        "graduation audit",
+        "credit check",
+        "am i on track to graduate",
+        "graduation plan",
+        "how do i know if i have enough credits",
+        "check my credits",
+        "transcript review",
+        "on track graduation"
+      ],
+      "answer": "A graduation audit is a formal review of your transcript with your counselor to confirm you are on track for all 26 required credits, endorsement completion, and EOC assessments. You should request a graduation audit in the spring of your junior year and again in the fall of your senior year. Your counselor can flag any credit gaps early enough to fix them. Don't wait until senior spring — by then options are very limited.",
+      "source": "General Guidance / Counselor Resources"
+    },
+    {
+      "topic": "military_credit",
+      "keywords": [
+        "military credit",
+        "military service credit",
+        "afjrotc credit",
+        "rotc credit",
+        "military training credit",
+        "jrotc graduation credit",
+        "military pe credit",
+        "rotc endorsement"
+      ],
+      "answer": "AFJROTC (Air Force Junior Reserve Officer Training Corps) is a voluntary program available at CFISD high schools. It can earn up to 4 PE credits (though only 2 count toward graduation since Fall 2022), and 4 AFJROTC credits can fulfill the Public Services endorsement requirement. AFJROTC courses also appear on the transcript and count in GPA. Contact your campus for availability.",
+      "source": "Graduation Requirements / AFJROTC (p. 24–25, 27–28)"
+    },
+    {
+      "topic": "honor_roll",
+      "keywords": [
+        "honor roll",
+        "distinguished honor roll",
+        "all a's b's honor roll",
+        "make the honor roll",
+        "honor roll gpa",
+        "grading period honor roll",
+        "how to make honor roll"
+      ],
+      "answer": "CFISD has two honor roll levels each grading period: Distinguished Honor Roll (all grades 90 or above) and Regular Honor Roll (majority of grades 90 or above, with the remainder 80–89, and no grade below 80). A conduct grade of at least Satisfactory (S) is also required. Note: pass/fail numerical grades still count for honor roll determination.",
+      "source": "Class Ranking & Honor Roll (p. 22–23)"
+    },
+    {
+      "topic": "concurrent",
+      "keywords": [
+        "concurrent enrollment",
+        "concurrent class",
+        "take class at same time as prerequisite",
+        "prerequisite concurrent",
+        "algebra ii concurrent cs ii",
+        "what does concurrent mean",
+        "co-requisite"
+      ],
+      "answer": "Concurrent enrollment means taking two courses at the same time where one is a prerequisite for the other. CFISD allows this in specific situations. For example, Computer Science II K requires Algebra II — but a 9th grader may enroll in CS II K concurrently with Algebra II (taking both in the same year). European History AP also requires U.S. History or concurrent enrollment. When you see 'or concurrent enrollment' on a prerequisite, it means you can take both courses simultaneously.",
+      "source": "Course Prerequisites / Descriptions"
+    },
+    {
+      "topic": "course_availability",
+      "keywords": [
+        "what courses are available",
+        "course list",
+        "full course catalog",
+        "all classes offered",
+        "what can i take",
+        "available classes",
+        "course offerings",
+        "class options bridgeland"
+      ],
+      "answer": "The full list of courses offered at CFISD high schools is published in the CFISD High School Course Description Handbook each year. It includes courses in English, Math, Science, Social Studies, Languages, Fine Arts, PE, Health, Computer Science, and over 30 CTE programs across clusters like Business, Health Science, Engineering, Architecture, Culinary Arts, and more. Not all courses are available at every campus — check with your Bridgeland counselor for the specific courses offered at Bridgeland High School.",
+      "source": "CFISD 2026–2027 Course Description Handbook (full document)"
+    },
+    {
+      "topic": "prereq_waiver",
+      "keywords": [
+        "waive prerequisite",
+        "skip prerequisite",
+        "no prerequisite",
+        "prerequisite waiver",
+        "bypass requirement",
+        "don't have prerequisite",
+        "missing prerequisite"
+      ],
+      "answer": "Prerequisites are enforced during course selection and again at the start of each semester. If you are placed in a course without the required prerequisite, this is one of the valid reasons for a schedule change during the first two weeks of a semester. You generally cannot waive or bypass a prerequisite — if you're missing one, you either need to earn it first (summer school, CBE) or choose an alternate course. Talk to your counselor if you believe a prerequisite error occurred.",
+      "source": "Course Selection & Changes (p. 5)"
+    },
+    {
+      "topic": "student_assistant",
+      "keywords": [
+        "student assistant",
+        "teacher assistant",
+        "ta credit",
+        "student aide",
+        "office aide",
+        "student helper credit",
+        "student assistant gpa"
+      ],
+      "answer": "Student assistant (TA/aide) courses do NOT count toward GPA or class rank. They also do not count toward the 26 credits required for graduation. They can appear on your transcript but carry no academic weight. The number of student assistant credits a student may earn is limited — check with your counselor.",
+      "source": "Class Ranking (p. 20–21)"
+    },
+    {
+      "topic": "pfl_detail",
+      "keywords": [
+        "personal financial literacy course",
+        "pfl course",
+        "what is personal financial literacy",
+        "pfl plus economics",
+        "economics plus pfl",
+        "financial literacy class"
+      ],
+      "answer": "Personal Financial Literacy (½ credit) is a new graduation requirement for the Class of 2030 and beyond, replacing Economics (½ credit). There is also a Personal Financial Literacy Plus Economics course (½ credit) which covers both subjects and satisfies the PFL requirement. AP Macro Economics may substitute for Personal Financial Literacy for Class of 2030+ students. For Classes of 2018–2029, Economics (½ credit) is still required and PFL is an elective.",
+      "source": "Graduation Requirements / Social Studies (p. 26–27)"
+    },
+    {
+      "topic": "ap_exam",
+      "keywords": [
+        "ap exam",
+        "college board exam",
+        "ap test score",
+        "ap score college credit",
+        "ap exam score",
+        "what score on ap exam",
+        "3 on ap exam",
+        "ap exam registration"
+      ],
+      "answer": "AP exams are administered by College Board each May. Scoring 3 or higher on an AP exam can earn you college credit at many universities and also earns a Performance Acknowledgment on your CFISD transcript. A score of 3, 4, or 5 is considered passing by most colleges, but individual schools set their own credit policies. Earning a passing AP exam score is separate from your course grade — a student can fail the AP exam but still pass the class (or vice versa). Ask your AP teacher about exam registration deadlines.",
+      "source": "Performance Acknowledgments / AP Program (p. 29–30)"
+    },
+    {
+      "topic": "ceremony",
+      "keywords": [
+        "graduation ceremony",
+        "commencement date",
+        "when is graduation",
+        "senior events",
+        "graduation tickets",
+        "walk across stage",
+        "senior graduation",
+        "baccalaureate"
+      ],
+      "answer": "Graduation ceremony details — date, venue, ticket distribution, dress code, and rehearsal requirements — are communicated by Bridgeland High School directly to seniors each spring. The academic eligibility requirement to participate in commencement is 22 earned credits and passing all 5 required EOC assessments. Contact the BHS counseling office or the main office for the current year's ceremony details.",
+      "source": "General Guidance / BHS Campus"
     }
   ],
   "planner": {
