@@ -885,7 +885,8 @@ function appendTyping(){
 }
 
 // ─── VISIT COUNTER ────────────────────────────────────────────────────────────
-// Uses CountAPI (countapi.xyz) — free shared counter, works on any web server.
+// Uses Abacus (abacus.jasoncameron.dev) — free shared counter, works on any web server.
+// (Previously used CountAPI/countapi.xyz, which was retired — the domain stopped resolving.)
 // Falls back to 1000+ if the API is unavailable (offline / file://).
 (async function(){
   const LAUNCH_BASELINE = 1000;
@@ -905,10 +906,10 @@ function appendTyping(){
   try {
     // hit() increments the counter and returns the new value
     const res  = await fetch(
-      `https://api.countapi.xyz/hit/${NAMESPACE}/${KEY}`,
+      `https://abacus.jasoncameron.dev/hit/${NAMESPACE}/${KEY}`,
       { signal: AbortSignal.timeout(4000) }
     );
-    if(!res.ok) throw new Error('CountAPI error');
+    if(!res.ok) throw new Error('Abacus error');
     const data = await res.json();
     const real = (data.value || 0) + LAUNCH_BASELINE;
     setDisplay(real);
