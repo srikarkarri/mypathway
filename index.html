@@ -884,30 +884,36 @@ function appendTyping(){
   c.appendChild(d); c.scrollTop=c.scrollHeight; return d;
 }
 
-// ─── INIT ─────────────────────────────────────────────────────────────────────────
-// ─── VISIT COUNTER — runs immediately, independent of handbook fetch ──────────
+// ─── VISIT COUNTER ────────────────────────────────────────────────────────────
+// Uses CountAPI (countapi.xyz) — free shared counter, works on any web server.
+// Falls back to 1000+ if the API is unavailable (offline / file://).
 (async function(){
   const LAUNCH_BASELINE = 1000;
+  const NAMESPACE       = 'bhs-pathways-navigator';
+  const KEY             = 'visits';
 
   const setDisplay = (n) => {
+    const fmt    = Number(n).toLocaleString();
     const badge  = document.getElementById('visit-badge');
     const statEl = document.getElementById('visit-stat-num');
-    if(badge)  badge.textContent  = '👁 ' + n.toLocaleString() + '+ visits';
-    if(statEl) statEl.textContent = n.toLocaleString() + '+';
+    if(badge)  badge.textContent  = '👁 ' + fmt + ' visits';
+    if(statEl) statEl.textContent = fmt;
   };
 
-  // Always show baseline immediately — no waiting, no dots
-  setDisplay(LAUNCH_BASELINE);
+  setDisplay(LAUNCH_BASELINE); // show baseline instantly — no flicker
 
   try {
-    if(typeof window.storage === 'undefined') return;
-    const existing = await window.storage.get('visit_count', true).catch(()=>null);
-    const stored   = existing ? (parseInt(existing.value) || 0) : 0;
-    const newCount = stored + 1;
-    await window.storage.set('visit_count', String(newCount), true);
-    setDisplay(newCount + LAUNCH_BASELINE);
+    // hit() increments the counter and returns the new value
+    const res  = await fetch(
+      `https://api.countapi.xyz/hit/${NAMESPACE}/${KEY}`,
+      { signal: AbortSignal.timeout(4000) }
+    );
+    if(!res.ok) throw new Error('CountAPI error');
+    const data = await res.json();
+    const real = (data.value || 0) + LAUNCH_BASELINE;
+    setDisplay(real);
   } catch(e) {
-    // keep showing baseline already set
+    // API unreachable (file://, offline, timeout) — keep baseline
   }
 })();
 
