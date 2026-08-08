@@ -18,12 +18,6 @@ endorsement, and get instant answers to all your high school planning questions.
 
 ---
 
-## 🚀 Deploy to GitHub Pages
-
-1. Create a GitHub repo (e.g. `bhs-pathways`)
-2. Copy all files into the repo root
-3. Go to **Settings → Pages → Source: Deploy from branch → main / root**
-4. Your app is live at `https://<username>.github.io/bhs-pathways/`
 
 ---
 
