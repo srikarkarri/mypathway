@@ -182,7 +182,7 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
         </div>
       </div>
       <!-- Visit badge (desktop only) -->
-      <div id="visit-badge" style="font-size:12px;font-weight:600;color:rgba(255,255,255,0.65);background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:100px;padding:4px 12px;white-space:nowrap;flex-shrink:0;">👁 …</div>
+      <div id="visit-badge" style="font-size:12px;font-weight:600;color:rgba(255,255,255,0.65);background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:100px;padding:4px 12px;white-space:nowrap;flex-shrink:0;">👁 1,000+ visits</div>
       <!-- Desktop Nav -->
       <nav id="desktop-nav" style="display:flex;gap:3px;overflow-x:auto;flex-shrink:0;">
         <button class="nav-btn active" onclick="showTab('home')"         id="nav-home">🏠 Home</button>
@@ -417,7 +417,6 @@ function initApp(){
   renderPlannerContent();
   renderRequirementsPage();
   renderChatSetup();
-  initVisitCounter();
   // hide loading
   const ls = document.getElementById('loading-screen');
   ls.classList.add('hidden');
@@ -474,7 +473,7 @@ function renderHomeStatics(){
     </div>`).join('');
   const visitCard = `
     <div class="card stat-card" style="padding:20px 16px;border-top:4px solid #6A1B9A;">
-      <div id="visit-stat-num" class="stat-num" style="font-size:32px;font-weight:800;color:#6A1B9A;line-height:1;">…</div>
+      <div id="visit-stat-num" class="stat-num" style="font-size:32px;font-weight:800;color:#6A1B9A;line-height:1;">1,000+</div>
       <div style="font-size:13px;font-weight:700;color:#0A2240;margin-top:6px;">Total Visits</div>
       <div style="font-size:11px;color:#64748B;margin-top:2px;">Since launch</div>
     </div>`;
@@ -885,28 +884,33 @@ function appendTyping(){
   c.appendChild(d); c.scrollTop=c.scrollHeight; return d;
 }
 
-// ─── VISIT COUNTER ─────────────────────────────────────────────────────────────────
-async function initVisitCounter(){
-  const LAUNCH_BASELINE = 1000; // start count from 1000 to reflect pre-launch usage
-  try{
+// ─── INIT ─────────────────────────────────────────────────────────────────────────
+// ─── VISIT COUNTER — runs immediately, independent of handbook fetch ──────────
+(async function(){
+  const LAUNCH_BASELINE = 1000;
+
+  const setDisplay = (n) => {
+    const badge  = document.getElementById('visit-badge');
+    const statEl = document.getElementById('visit-stat-num');
+    if(badge)  badge.textContent  = '👁 ' + n.toLocaleString() + '+ visits';
+    if(statEl) statEl.textContent = n.toLocaleString() + '+';
+  };
+
+  // Always show baseline immediately — no waiting, no dots
+  setDisplay(LAUNCH_BASELINE);
+
+  try {
+    if(typeof window.storage === 'undefined') return;
     const existing = await window.storage.get('visit_count', true).catch(()=>null);
     const stored   = existing ? (parseInt(existing.value) || 0) : 0;
     const newCount = stored + 1;
     await window.storage.set('visit_count', String(newCount), true);
-    const display  = (newCount + LAUNCH_BASELINE).toLocaleString();
-
-    const badge  = document.getElementById('visit-badge');
-    const statEl = document.getElementById('visit-stat-num');
-    if(badge)  { badge.textContent  = '👁 ' + display + ' visits'; badge.style.display = ''; }
-    if(statEl) { statEl.textContent = display; }
+    setDisplay(newCount + LAUNCH_BASELINE);
   } catch(e) {
-    // storage unavailable — hide gracefully
-    const badge = document.getElementById('visit-badge');
-    if(badge) badge.style.display = 'none';
+    // keep showing baseline already set
   }
-}
+})();
 
-// ─── INIT ─────────────────────────────────────────────────────────────────────────
 boot();
 </script>
 </body>
