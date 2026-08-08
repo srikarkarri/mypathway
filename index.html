@@ -90,7 +90,7 @@ button{font-family:inherit;cursor:pointer;}input,textarea{font-family:inherit;}t
 @media(max-width:640px){
   /* Header — hide desktop nav & visit badge, show brand only */
   #desktop-nav{display:none !important;}
-  #visit-badge{display:none !important;}
+  #visit-badge{font-size:11px !important;padding:3px 8px !important;}
   #header-brand .bhs-subtitle{display:none;}
   header .header-inner{height:52px;padding:0 16px;}
 
@@ -887,18 +887,22 @@ function appendTyping(){
 
 // ─── VISIT COUNTER ─────────────────────────────────────────────────────────────────
 async function initVisitCounter(){
+  const LAUNCH_BASELINE = 1000; // start count from 1000 to reflect pre-launch usage
   try{
-    const existing=await window.storage.get('visit_count',true).catch(()=>null);
-    const newCount=(existing?parseInt(existing.value)||0:0)+1;
-    await window.storage.set('visit_count',String(newCount),true);
-    const fmt=newCount.toLocaleString();
-    const badge=document.getElementById('visit-badge');
-    if(badge)badge.textContent='👁 '+fmt+' visits';
-    const statEl=document.getElementById('visit-stat-num');
-    if(statEl)statEl.textContent=fmt;
-  }catch(e){
-    const badge=document.getElementById('visit-badge');
-    if(badge)badge.style.display='none';
+    const existing = await window.storage.get('visit_count', true).catch(()=>null);
+    const stored   = existing ? (parseInt(existing.value) || 0) : 0;
+    const newCount = stored + 1;
+    await window.storage.set('visit_count', String(newCount), true);
+    const display  = (newCount + LAUNCH_BASELINE).toLocaleString();
+
+    const badge  = document.getElementById('visit-badge');
+    const statEl = document.getElementById('visit-stat-num');
+    if(badge)  { badge.textContent  = '👁 ' + display + ' visits'; badge.style.display = ''; }
+    if(statEl) { statEl.textContent = display; }
+  } catch(e) {
+    // storage unavailable — hide gracefully
+    const badge = document.getElementById('visit-badge');
+    if(badge) badge.style.display = 'none';
   }
 }
 
