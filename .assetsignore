@@ -1,0 +1,3 @@
+# Cloudflare Workers/Pages static-asset upload exclusions.
+# Prevents git internals (history, config, refs) from being served publicly.
+.git/
